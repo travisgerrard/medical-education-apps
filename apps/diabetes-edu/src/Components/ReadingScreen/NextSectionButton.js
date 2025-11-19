@@ -6,7 +6,7 @@ import {
   NEXT_READING_KEY,
 } from '../MainScreen/VerticalHalfPaginator';
 import styled from 'styled-components';
-import IosArrowDropright from 'react-ionicons/lib/IosArrowDropright';
+import { CaretForward } from 'react-ionicons';
 import {
   getSection,
   getSubsection,
@@ -205,7 +205,7 @@ function NextSectionButton({ route }) {
         )}
         <div>{theNextSectionTitle}</div>
       </div>
-      <IosArrowDropright color="rgb(1, 121, 213)" fontSize="32px" />
+      <CaretForward color="rgb(1, 121, 213)" fontSize="32px" />
     </NextSectionButtonContainer>
   );
 }

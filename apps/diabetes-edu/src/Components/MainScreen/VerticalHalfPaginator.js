@@ -6,9 +6,7 @@ import React, {
   useLayoutEffect,
 } from 'react';
 import styled from 'styled-components';
-import IosArrowDropup from 'react-ionicons/lib/IosArrowDropup';
-import IosArrowDropdown from 'react-ionicons/lib/IosArrowDropdown';
-import IosMenu from 'react-ionicons/lib/IosMenu';
+import { CaretUp, CaretDown, Menu } from 'react-ionicons';
 import Card from './Card/Card';
 import TopHalfMainScreenIndex from './TopHalfMainScreen/TopHalfMainScreenIndex';
 import { Context as ReadingContext } from '../context/ReadingContext';
@@ -195,7 +193,7 @@ function VerticalHalfPaginator() {
   return (
     <Container>
       <Menu listFullScreen={listFullScreen}>
-        <IosMenu
+        <Menu
           color="white"
           fontSize="32px"
           style={{ padding: '26px', cursor: 'pointer' }}
@@ -253,9 +251,9 @@ const CardsArray = ({ item, setListFullScreen, listFullScreen }) => {
         }
       >
         {listFullScreen === '50vh' ? (
-          <IosArrowDropup fontSize="32px" style={{ cursor: 'pointer' }} />
+          <CaretUp fontSize="32px" style={{ cursor: 'pointer' }} />
         ) : (
-          <IosArrowDropdown fontSize="32px" style={{ cursor: 'pointer' }} />
+          <CaretDown fontSize="32px" style={{ cursor: 'pointer' }} />
         )}
       </Title>
       <Card key={readingItem[0].id} item={readingItem[0]} />
