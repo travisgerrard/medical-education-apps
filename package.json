@@ -1,0 +1,24 @@
+{
+  "name": "medical-education-apps",
+  "version": "1.0.0",
+  "description": "Monorepo for medical education applications",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:bp": "npm run dev --workspace=apps/bp-impact",
+    "dev:diabetes": "npm run dev --workspace=apps/diabetes-edu",
+    "build:bp": "npm run build --workspace=apps/bp-impact",
+    "build:diabetes": "npm run build --workspace=apps/diabetes-edu",
+    "test:bp": "npm run test --workspace=apps/bp-impact",
+    "test:diabetes": "npm run test --workspace=apps/diabetes-edu"
+  },
+  "keywords": [
+    "medical-education",
+    "monorepo"
+  ],
+  "author": "Travis Gerrard, MD",
+  "license": "MIT"
+}

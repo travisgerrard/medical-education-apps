@@ -1,0 +1,15 @@
+{
+    "name": "@medical-edu/shared-utils",
+    "version": "1.0.0",
+    "description": "Shared utility functions for medical education apps",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "utilities",
+        "helpers"
+    ],
+    "author": "Travis Gerrard, MD",
+    "license": "MIT"
+}
