@@ -1,0 +1,33 @@
+{
+  "name": "next-mdx",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next",
+    "start": "next start",
+    "export": "next export",
+    "postbuild": "next-on-netlify"
+  },
+  "dependencies": {
+    "@mdx-js/loader": "1.6.18",
+    "@mdx-js/mdx": "1.6.18",
+    "@next/mdx": "^9.5.3",
+    "@react-native-community/async-storage": "^1.12.1",
+    "axios": "^0.21.0",
+    "babel-plugin-inline-react-svg": "^1.1.1",
+    "babel-plugin-preval": "^5.0.0",
+    "next": "^9.5.3",
+    "next-images": "^1.6.0",
+    "next-on-netlify": "^2.6.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-ionicons": "^3.1.4",
+    "remark-emoji": "^2.1.0",
+    "remark-images": "^2.0.0",
+    "styled-components": "^5.2.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.11.1"
+  }
+}
