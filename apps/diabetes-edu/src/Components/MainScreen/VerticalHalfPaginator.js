@@ -6,7 +6,7 @@ import React, {
   useLayoutEffect,
 } from 'react';
 import styled from 'styled-components';
-import { CaretUp, CaretDown, Menu } from 'react-ionicons';
+import { CaretUp, CaretDown, Menu as MenuIcon } from 'react-ionicons';
 import Card from './Card/Card';
 import TopHalfMainScreenIndex from './TopHalfMainScreen/TopHalfMainScreenIndex';
 import { Context as ReadingContext } from '../context/ReadingContext';
@@ -193,7 +193,7 @@ function VerticalHalfPaginator() {
   return (
     <Container>
       <Menu listFullScreen={listFullScreen}>
-        <Menu
+        <MenuIcon
           color="white"
           fontSize="32px"
           style={{ padding: '26px', cursor: 'pointer' }}
