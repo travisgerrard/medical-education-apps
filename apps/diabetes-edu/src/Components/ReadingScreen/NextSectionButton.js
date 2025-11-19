@@ -6,7 +6,7 @@ import {
   NEXT_READING_KEY,
 } from '../MainScreen/VerticalHalfPaginator';
 import styled from 'styled-components';
-import { CaretForward } from 'react-ionicons';
+import { IoCaretForward } from 'react-icons/io5';
 import {
   getSection,
   getSubsection,
@@ -205,7 +205,7 @@ function NextSectionButton({ route }) {
         )}
         <div>{theNextSectionTitle}</div>
       </div>
-      <CaretForward color="rgb(1, 121, 213)" fontSize="32px" />
+      <IoCaretForward color="rgb(1, 121, 213)" fontSize="32px" />
     </NextSectionButtonContainer>
   );
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Link from 'next/link';
-import { ArrowForward, CheckmarkCircle } from 'react-ionicons';
+import { IoArrowForward, IoCheckmarkCircleOutline } from 'react-icons/io5';
 
 const Container = styled.div`
   padding-left: 25px;
@@ -84,9 +84,9 @@ function Card({ item }) {
                 <TopicListItem>{section.title}</TopicListItem>
                 <div>
                   {section.hasRead && (
-                    <CheckmarkCircle color="rgb(0, 128, 0)" />
+                    <IoCheckmarkCircleOutline color="rgb(0, 128, 0)" />
                   )}
-                  <ArrowForward color="gray" />
+                  <IoArrowForward color="gray" />
                 </div>
               </TopicListItemContainer>
             </Link>
