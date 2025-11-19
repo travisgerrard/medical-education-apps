@@ -15,7 +15,6 @@ import { Context as ReadingContext } from '../context/ReadingContext';
 import { Context as NextToReadContext } from '../context/NextToReadContext';
 import { Context as MenuScrollContext } from '../context/MenuScrollContext';
 import { useRouter } from 'next/router';
-import VM_Small from './VM_Small.png';
 
 import { DATA } from '../../../SectionOutline';
 
@@ -205,7 +204,7 @@ function VerticalHalfPaginator() {
           }
         />
         <img
-          src={VM_Small}
+          src="/images/VM_Small.png"
           onClick={() =>
             router
               .push(`https://www.virginiamason.org`)
