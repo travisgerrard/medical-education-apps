@@ -9,6 +9,7 @@ import styled from 'styled-components';
 import { IoCaretUp, IoCaretDown, IoMenu } from 'react-icons/io5';
 import Card from '../Card/Card';
 import TopHalfMainScreenIndex from './TopHalfMainScreenIndex';
+import HamburgerMenu from '../HamburgerMenu';
 import {
   ReadingContext,
   NextToReadContext,
@@ -168,19 +169,22 @@ function VerticalHalfPaginator({ data }) {
 
   const [listFullScreen, setListFullScreen] = useState('50vh');
   const [offsetPercent, setOffsetPercent] = useState(1);
+  const [menuOpen, setMenuOpen] = useState(false);
 
 
 
   return (
     <Container>
+      <HamburgerMenu
+        isOpen={menuOpen}
+        onClose={() => setMenuOpen(false)}
+      />
       <Menu listFullScreen={listFullScreen}>
         <IoMenu
           color="white"
           fontSize="32px"
           style={{ padding: '26px', cursor: 'pointer' }}
-          onClick={() =>
-            router.push(`/about`).then(() => window.scrollTo(0, 0))
-          }
+          onClick={() => setMenuOpen(true)}
         />
       </Menu>
       <TopHalfContainer listFullScreen={listFullScreen}>
