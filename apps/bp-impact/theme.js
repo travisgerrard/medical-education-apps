@@ -1,3 +1,4 @@
+// BP Impact Theme Configuration - v1.0.0 (Refactored for shared components)
 import { BsChevronRight, BsCheckCircle, BsArrowRightCircle } from 'react-icons/bs';
 
 export const theme = {
