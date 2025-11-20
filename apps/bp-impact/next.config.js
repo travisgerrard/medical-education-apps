@@ -18,6 +18,7 @@ const nextConfig = {
   // Optionally, add any other Next.js config below
   reactStrictMode: true,
   output: 'standalone',
+  transpilePackages: ['@medical-edu/shared-contexts', '@medical-edu/shared-ui', '@medical-edu/shared-utils'],
 };
 
 // Merge MDX config with Next.js config

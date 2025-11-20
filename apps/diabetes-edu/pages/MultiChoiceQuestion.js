@@ -75,22 +75,21 @@ function QuestionTextFunction({ children, isAnswer }) {
 
 function MultiChoiceQuestion({ question, answers }) {
   return (
-    <></>
-    // <Container>
-    //   <Heading>Review Question</Heading>
-    //   <hr />
-    //   <SubHeading>{question}</SubHeading>
-    //   {answers.map((question) => {
-    //     return (
-    //       <QuestionTextFunction
-    //         isAnswer={question.isAnswer}
-    //         key={question.answerText}
-    //       >
-    //         {question.answerText}
-    //       </QuestionTextFunction>
-    //     );
-    //   })}
-    // </Container>
+    <Container>
+      <Heading>Review Question</Heading>
+      <hr />
+      <SubHeading>{question}</SubHeading>
+      {answers.map((question) => {
+        return (
+          <QuestionTextFunction
+            isAnswer={question.isAnswer}
+            key={question.answerText}
+          >
+            {question.answerText}
+          </QuestionTextFunction>
+        );
+      })}
+    </Container>
   );
 }
 

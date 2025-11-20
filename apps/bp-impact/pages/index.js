@@ -1,8 +1,9 @@
 import React, { useContext, useEffect } from 'react';
-import VerticalHalfPaginator from '../src/Components/MainScreen/VerticalHalfPaginator';
-import AccessCodeScreen from '../src/Components/Authorization/AccessCodeScreen';
-import DisclaimerPage from '../src/Components/Authorization/DisclaimerPage';
-import { Context as AuthContext } from '../src/Components/context/AuthContext';
+import { VerticalHalfPaginator } from '@medical-edu/shared-ui';
+import { DisclaimerPage } from '@medical-edu/shared-ui';
+import { AuthContext } from '@medical-edu/shared-contexts';
+import theme from '../theme';
+import { DATA } from '../SectionOutline';
 
 export default function Index() {
   const { state, tryLocalSignin } = useContext(AuthContext);
@@ -19,7 +20,7 @@ export default function Index() {
   if (state.disclaimer === null) {
     return <DisclaimerPage />;
   } else {
-    return <VerticalHalfPaginator />;
+    return <VerticalHalfPaginator data={DATA} />;
   }
   // }
 }

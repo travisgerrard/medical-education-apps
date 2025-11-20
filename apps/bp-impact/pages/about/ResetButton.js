@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
 import styled from 'styled-components';
-import { Context as ReadingContext } from '../../src/Components/context/ReadingContext';
-import { Context as NextToReadContext } from '../../src/Components/context/NextToReadContext';
+import { ReadingContext, NextToReadContext } from '@medical-edu/shared-contexts';
 import Router from 'next/router';
 
 const ResetButtonContainer = styled.div`

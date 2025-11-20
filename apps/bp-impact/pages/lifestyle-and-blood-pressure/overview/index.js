@@ -1,10 +1,7 @@
 import React, { useContext } from 'react';
 import LifestyleQuickFactSquare from './LifestyleQuickFactSquare.js';
-import {
-  RegularText,
-  Header,
-} from '../../../src/Components/ReadingScreen/MainReadingView';
-import { Context as TextContext } from '../../../src/Components/context/TextContext';
+import { RegularText, Header } from '@medical-edu/shared-ui';
+import { TextContext } from '@medical-edu/shared-contexts';
 
 export default function index() {
   const { state: textState } = useContext(TextContext);

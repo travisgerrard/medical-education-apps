@@ -3,19 +3,23 @@ import { MDXProvider } from '@mdx-js/react';
 import './styles.css';
 import { useRouter } from 'next/router';
 
-import styled from 'styled-components';
-import NextSectionButton from '../src/Components/ReadingScreen/NextSectionButton';
-import MainReadingView from '../src/Components/ReadingScreen/MainReadingView';
+import styled, { ThemeProvider } from 'styled-components';
+import { NextSectionButton, MainReadingView } from '@medical-edu/shared-ui';
 
-import { Provider as ReadingContextProvider } from '../src/Components/context/ReadingContext';
-import { Provider as NextToReadContextProvider } from '../src/Components/context/NextToReadContext';
-import { Provider as AuthContextProvider } from '../src/Components/context/AuthContext';
-import { Provider as TextContextProvider } from '../src/Components/context/TextContext';
-import { Provider as MenuScrollContextProvider } from '../src/Components/context/MenuScrollContext';
+import {
+  AuthProvider,
+  TextProvider,
+  MenuScrollProvider,
+  ReadingProvider,
+  NextToReadProvider,
+} from '@medical-edu/shared-contexts';
+import { DATA } from '../SectionOutline';
 
 import * as ga from '../lib/ga';
+import { theme } from '../theme';
 
 const Index = ({ Component, pageProps, router }) => {
+  console.log('App theme:', theme);
   const { route } = router;
 
   const routerForUseEffect = useRouter();
@@ -35,24 +39,26 @@ const Index = ({ Component, pageProps, router }) => {
   }, [routerForUseEffect.events]);
 
   return (
-    <AuthContextProvider>
-      <ReadingContextProvider>
-        <NextToReadContextProvider>
-          <TextContextProvider>
-            <MenuScrollContextProvider>
-              {route === '/' ? (
-                <Component {...pageProps} />
-              ) : (
-                <MainReadingView>
+    <ThemeProvider theme={theme}>
+      <AuthProvider>
+        <ReadingProvider initialState={{ readingArray: DATA, errorMessage: '' }}>
+          <NextToReadProvider>
+            <TextProvider>
+              <MenuScrollProvider>
+                {route === '/' ? (
                   <Component {...pageProps} />
-                  <NextSectionButton route={route} />
-                </MainReadingView>
-              )}
-            </MenuScrollContextProvider>
-          </TextContextProvider>
-        </NextToReadContextProvider>
-      </ReadingContextProvider>
-    </AuthContextProvider>
+                ) : (
+                  <MainReadingView>
+                    <Component {...pageProps} />
+                    <NextSectionButton route={route} />
+                  </MainReadingView>
+                )}
+              </MenuScrollProvider>
+            </TextProvider>
+          </NextToReadProvider>
+        </ReadingProvider>
+      </AuthProvider>
+    </ThemeProvider>
   );
 };
 

@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import styled from 'styled-components';
-import { Context as TextContext } from '../../../src/Components/context/TextContext';
+import { TextContext } from '@medical-edu/shared-contexts';
 
 const Container = styled.div`
   display: flex;
