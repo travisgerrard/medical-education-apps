@@ -45,28 +45,6 @@ const Menu = styled.div`
       opacity: 0.3;
     }
   }
-
-  img {
-    background-color: white;
-    margin-right: 26px;
-    padding: 3px;
-    border-radius: 5px;
-    height: 40px;
-    width: 55px;
-    object-fit: contain;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
-    cursor: pointer;
-    transition: all 0.25s;
-
-    &:hover {
-      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
-      opacity: 0.9;
-    }
-    &:active {
-      box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
-      opacity: 0.8;
-    }
-  }
 `;
 
 const TopHalfContainer = styled.div`
@@ -202,14 +180,6 @@ function VerticalHalfPaginator({ data }) {
           style={{ padding: '26px', cursor: 'pointer' }}
           onClick={() =>
             router.push(`/about`).then(() => window.scrollTo(0, 0))
-          }
-        />
-        <img
-          src="/images/VM_Small.png"
-          onClick={() =>
-            router
-              .push(`https://www.virginiamason.org`)
-              .then(() => window.scrollTo(0, 0))
           }
         />
       </Menu>
