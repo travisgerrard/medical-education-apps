@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import styled from 'styled-components';
+import styled, { useTheme } from 'styled-components';
 import CircularProgressIndicator from './CircleProgressBar/CircleProgressBar';
 import ContReadingSection from './ContReadingSection';
 
@@ -28,6 +28,7 @@ function useInterval(callback, delay) {
 }
 
 function TopHalfMainScreenIndex({ percent, offsetPercent, nextOnReadingList }) {
+  const theme = useTheme();
   const { section, theNextSectionTitle, theNextSectionId } = nextOnReadingList;
   const [progress, setProgress] = useState(0);
 
@@ -47,10 +48,7 @@ function TopHalfMainScreenIndex({ percent, offsetPercent, nextOnReadingList }) {
     <CircleContainer>
       <CircularProgressIndicator
         percentage={percent}
-        trailStrokeColor="rgb(0, 122, 73)"
-        strokeColor="rgb(0, 243, 146)"
-        strokeWidth={2}
-        trailStrokeWidth={2}
+        strokeColor={theme.colors.primary}
         textColor="rgba(255, 255, 255, 0.75)"
       />
       <ContReadingSection

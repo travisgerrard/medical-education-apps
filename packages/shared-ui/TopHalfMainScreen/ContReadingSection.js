@@ -30,7 +30,7 @@ const RegularText = styled.p`
 `;
 
 const ReadingButton = styled.p`
-  background-color: rgba(0, 122, 73, 0.9);
+  background-color: ${props => props.theme.colors.primary};
   color: rgba(255, 255, 255, 0.9);
   font-size: 16px;
   font-weight: 500;
@@ -43,13 +43,14 @@ const ReadingButton = styled.p`
   border-radius: 25px;
   cursor: pointer;
   &:hover {
-    background-color: rgba(0, 122, 73, 1);
+    background-color: ${props => props.theme.colors.primary};
+    opacity: 0.9;
     color: rgba(255, 255, 255, 1);
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
   }
   &:active {
-    background-color: rgba(0, 122, 73, 0.3);
-    color: rgba(255, 255, 255, 0.3);
+    opacity: 0.7;
+    color: rgba(255, 255, 255, 0.8);
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
   }
 `;
