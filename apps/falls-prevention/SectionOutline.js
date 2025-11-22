@@ -1,0 +1,88 @@
+export const DATA = [
+    {
+        id: '1',
+        slug: 'what-are-falls',
+        title: 'What are falls and why they matter?',
+        subtitle: 'Section 1',
+        sections: [
+            { id: '1', slug: 'introduction', title: 'Introduction', hasRead: false },
+            { id: '2', slug: 'why-falls-matter', title: 'Why Falls Matter', hasRead: false },
+            { id: '3', slug: 'what-happens-after', title: 'What Happens After a Fall', hasRead: false },
+            { id: '4', slug: 'who-is-at-risk', title: 'Who Is at Higher Risk', hasRead: false },
+            { id: '5', slug: 'how-falls-evaluated', title: 'How Falls Are Evaluated', hasRead: false },
+            { id: '6', slug: 'goals-prevention', title: 'Goals of Fall Prevention', hasRead: false },
+        ],
+    },
+    {
+        id: '2',
+        slug: 'understanding-risk',
+        title: 'Understanding your fall risk',
+        subtitle: 'Section 2',
+        sections: [
+            { id: '1', slug: 'introduction', title: 'Introduction', hasRead: false },
+            { id: '2', slug: 'common-risk-factors', title: 'Common Risk Factors', hasRead: false },
+            { id: '3', slug: 'home-hazards', title: 'Home Hazards', hasRead: false },
+            { id: '4', slug: 'medical-conditions', title: 'Medical Conditions That Increase Risk', hasRead: false },
+            { id: '5', slug: 'medicines-balance', title: 'Medicines That Affect Balance', hasRead: false },
+            { id: '6', slug: 'check-your-risk', title: 'How to Check Your Own Risk', hasRead: false },
+        ],
+    },
+    {
+        id: '3',
+        slug: 'making-home-safer',
+        title: 'Making your home safer',
+        subtitle: 'Section 3',
+        sections: [
+            { id: '1', slug: 'introduction', title: 'Introduction', hasRead: false },
+            { id: '2', slug: 'safer-living-room', title: 'Safer Living Room and Bedroom', hasRead: false },
+            { id: '3', slug: 'safer-stairs', title: 'Safer Stairs', hasRead: false },
+            { id: '4', slug: 'safer-bathroom', title: 'Safer Bathroom', hasRead: false },
+            { id: '5', slug: 'lighting-safety', title: 'Lighting and Nighttime Safety', hasRead: false },
+            { id: '6', slug: 'simple-equipment', title: 'Simple Equipment That Helps', hasRead: false },
+        ],
+    },
+    {
+        id: '4',
+        slug: 'staying-strong',
+        title: 'Staying strong and steady',
+        subtitle: 'Section 4',
+        sections: [
+            { id: '1', slug: 'introduction', title: 'Introduction', hasRead: false },
+            { id: '2', slug: 'why-strength-matters', title: 'Why Strength Matters', hasRead: false },
+            { id: '3', slug: 'why-balance-matters', title: 'Why Balance Matters', hasRead: false },
+            { id: '4', slug: 'simple-home-exercises', title: 'Simple Home Exercises', hasRead: false },
+            { id: '5', slug: 'walking-safely', title: 'Walking Safely', hasRead: false },
+            { id: '6', slug: 'exercise-programs', title: 'Exercise Programs That Help Most', hasRead: false },
+        ],
+    },
+    {
+        id: '5',
+        slug: 'medicines-vision-health',
+        title: 'Medicines, vision, and health conditions',
+        subtitle: 'Section 5',
+        sections: [
+            { id: '1', slug: 'introduction', title: 'Introduction', hasRead: false },
+            { id: '2', slug: 'medicines-risk', title: 'Medicines That Increase Fall Risk', hasRead: false },
+            { id: '3', slug: 'vision-hearing', title: 'Vision and Hearing', hasRead: false },
+            { id: '4', slug: 'foot-care', title: 'Foot Care and Footwear', hasRead: false },
+            { id: '5', slug: 'dizziness-bp', title: 'Dizziness and Blood Pressure', hasRead: false },
+            { id: '6', slug: 'ask-for-review', title: 'When to Ask for a Review', hasRead: false },
+        ],
+    },
+    {
+        id: '6',
+        slug: 'what-to-do',
+        title: 'What to do if you fall',
+        subtitle: 'Section 6',
+        sections: [
+            { id: '1', slug: 'introduction', title: 'Introduction', hasRead: false },
+            { id: '2', slug: 'when-to-call-911', title: 'When to Call 911', hasRead: false },
+            { id: '3', slug: 'get-up-safely', title: 'How to Get Up Safely', hasRead: false },
+            { id: '4', slug: 'when-to-call-doctor', title: 'When to Call Your Doctor', hasRead: false },
+            { id: '5', slug: 'watch-after-fall', title: 'What to Watch for After a Fall', hasRead: false },
+            { id: '6', slug: 'prevent-next-fall', title: 'How to Prevent the Next Fall', hasRead: false },
+        ],
+    },
+];
+
+export const LAST_SECTION_ID = '6';

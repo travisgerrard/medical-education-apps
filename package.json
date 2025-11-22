@@ -13,7 +13,10 @@
     "build:bp": "npm run build --workspace=apps/bp-impact",
     "build:diabetes": "npm run build --workspace=apps/diabetes-edu",
     "test:bp": "npm run test --workspace=apps/bp-impact",
-    "test:diabetes": "npm run test --workspace=apps/diabetes-edu"
+    "test:diabetes": "npm run test --workspace=apps/diabetes-edu",
+    "dev:falls-prevention": "npm run dev --workspace=apps/falls-prevention",
+    "build:falls-prevention": "npm run build --workspace=apps/falls-prevention",
+    "test:falls-prevention": "npm run test --workspace=apps/falls-prevention"
   },
   "engines": {
     "node": ">=18.18.0"
