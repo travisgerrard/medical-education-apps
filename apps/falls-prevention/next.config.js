@@ -1,19 +1,18 @@
 const withMDX = require('@next/mdx')({
   extension: /\.mdx?$/,
-  options: {},
+  options: {
+    providerImportSource: '@mdx-js/react',
+  },
 });
 
-module.exports = withMDX({
-  pageExtensions: ['js', 'jsx', 'mdx'],
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  pageExtensions: ['js', 'jsx', 'md', 'mdx'],
   compiler: {
     styledComponents: true,
   },
+  output: 'standalone',
   transpilePackages: ['@medical-edu/shared-contexts', '@medical-edu/shared-ui'],
-  webpack: (config) => {
-    config.module.rules.push({
-      test: /\.(png|jpe?g|gif|svg)$/i,
-      type: 'asset/resource',
-    });
-    return config;
-  },
-});
+};
+
+module.exports = withMDX(nextConfig);
