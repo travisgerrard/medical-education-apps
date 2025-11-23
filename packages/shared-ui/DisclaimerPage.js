@@ -8,6 +8,7 @@ const TitleTextDisclaimer = styled(TitleText)`
   padding-right: 10%;
   padding-bottom: 24px;
   text-align: center;
+  color: ${(props) => props.theme.colors.text || 'rgba(255, 255, 255, 0.9)'};
 `;
 
 export default function DisclaimerPage() {

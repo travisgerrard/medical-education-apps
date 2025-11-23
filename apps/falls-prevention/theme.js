@@ -8,6 +8,7 @@ export const theme = {
   colors: {
     primary: 'rgb(59, 130, 246)',
     link: 'rgb(37, 99, 235)',
+    text: '#000000',
   },
   icons: {
     arrow: IoArrowForward,
