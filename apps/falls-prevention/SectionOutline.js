@@ -1,9 +1,9 @@
 export const DATA = [
     {
         id: '1',
-        slug: 'what-are-falls',
-        title: 'What are falls and why they matter?',
-        subtitle: 'Section 1',
+        slug: 'home',
+        title: 'Home',
+        subtitle: 'Falls are preventable. Ground yourself in quick facts and the call to start with assessment.',
         sections: [
             { id: '1', slug: 'introduction', title: 'Introduction', hasRead: false },
             { id: '2', slug: 'why-falls-matter', title: 'Why Falls Matter', hasRead: false },
