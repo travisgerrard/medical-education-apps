@@ -50,7 +50,7 @@ const Index = ({ Component, pageProps, router }) => {
                 ) : (
                   <MainReadingView>
                     <Component {...pageProps} />
-                    <NextSectionButton route={route} />
+                    <NextSectionButton route={route} lastSectionId="7" />
                   </MainReadingView>
                 )}
               </MenuScrollProvider>

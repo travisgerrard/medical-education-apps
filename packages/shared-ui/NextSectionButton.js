@@ -53,9 +53,7 @@ const NextLessonText = styled.div`
   font-family: Helvetica Neue, Arial, sans-serif;
 `;
 
-export const LAST_SECTION_ID = '7';
-
-export default function NextSectionButton({ route }) {
+export default function NextSectionButton({ route, lastSectionId = '7' }) {
   const theme = useTheme();
   const router = useRouter();
 
@@ -138,7 +136,7 @@ export default function NextSectionButton({ route }) {
     setReadingArray(updatedReadingArray);
 
     if (theNextSectionId === 'Close Section') {
-      if (sectionId === LAST_SECTION_ID) {
+      if (sectionId === lastSectionId) {
         setNextOnReadingList({
           section: sectionId,
           sectionSlug: routes[1],
@@ -191,7 +189,7 @@ export default function NextSectionButton({ route }) {
             .then(() => window.scrollTo(0, 0));
         } else {
           updateReadingArray();
-          sectionId === LAST_SECTION_ID
+          sectionId === lastSectionId
             ? router.push(`/complete`).then(() => window.scrollTo(0, 0))
             : router.push(`/`).then(() => window.scrollTo(0, 0));
         }

@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Link from 'next/link';
-import { LAST_SECTION_ID } from '../NextSectionButton';
+
 
 const TextContainer = styled.div`
   display: flex;
