@@ -1,11 +1,17 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 import { VerticalHalfPaginator, DisclaimerPage } from '@medical-edu/shared-ui';
 import { AuthContext } from '@medical-edu/shared-contexts';
 import { DATA } from '../SectionOutline';
 import { theme } from '../theme';
 
 export default function Index() {
-  const { state } = useContext(AuthContext);
+  const { state, tryLocalSignin } = useContext(AuthContext);
+
+  useEffect(() => {
+    tryLocalSignin();
+  }, []);
+
+  if (state.isLoading) return null;
 
   if (state.disclaimer === null) {
     return <DisclaimerPage />;
