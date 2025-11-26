@@ -282,7 +282,7 @@ const CardsArray = ({ item, setListFullScreen, listFullScreen }) => {
   );
 };
 
-const TopHalfMainScreen = ({ offsetPercent, data }) => {
+const TopHalfMainScreen = ({ offsetPercent, data, welcomeText, startPath }) => {
   const { state: readingState } = useContext(ReadingContext);
   const { readingArray } = readingState;
 
@@ -315,6 +315,8 @@ const TopHalfMainScreen = ({ offsetPercent, data }) => {
       percent={percentRead}
       offsetPercent={offsetPercent}
       nextOnReadingList={nextOnReadingList}
+      welcomeText={welcomeText}
+      startPath={startPath}
       style={{}}
     />
   );
