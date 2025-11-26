@@ -20,7 +20,11 @@ export default function Index() {
   if (state.disclaimer === null) {
     return <DisclaimerPage />;
   } else {
-    return <VerticalHalfPaginator data={DATA} />;
+    const welcomeConfig = {
+      welcomeText: "Ready to take control of your blood pressure?\nLet's get started with\nthe courses below.",
+      startPath: "/what-is-hypertension/introduction"
+    };
+    return <VerticalHalfPaginator data={DATA} welcomeConfig={welcomeConfig} />;
   }
   // }
 }
