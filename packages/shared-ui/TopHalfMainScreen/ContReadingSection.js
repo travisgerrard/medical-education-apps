@@ -42,9 +42,10 @@ const ReadingButton = styled.p`
   font-weight: 500;
   font-family: Helvetica Neue, Arial, sans-serif;
   text-align: center;
-  margin-top: 20px;
+  margin: 20px 0 0 0;
   padding: 15px;
   width: 100%;
+  box-sizing: border-box;
   transition: all 0.25s;
   border-radius: 25px;
   cursor: pointer;
