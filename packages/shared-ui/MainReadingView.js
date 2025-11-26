@@ -76,6 +76,7 @@ const TextContainer = styled.div`
   min-height: 100vh;
   width: 100%;
   box-sizing: border-box;
+  overflow-x: hidden;
 
   @keyframes highlight-pulse {
     0%, 100% { background-color: #ffeb3b; }
