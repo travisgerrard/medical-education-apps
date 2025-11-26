@@ -6,8 +6,8 @@ import {
 
 export const theme = {
   colors: {
-    primary: 'rgb(59, 130, 246)',
-    link: 'rgb(37, 99, 235)',
+    primary: '#4A90E2',
+    link: '#3A7BC8',
   },
   icons: {
     arrow: IoArrowForward,
@@ -15,7 +15,7 @@ export const theme = {
     nextSection: IoCaretForward,
   },
   text: {
-    appName: 'Falls Prevention',
-    disclaimerText: 'The Falls Prevention provides useful information but is not a substitute for professional medical advice, diagnosis, or treatment. If you have a medical emergency, call your healthcare provider or dial 911. Before acting on any of the information in the Falls Prevention, please consult with your healthcare provider.',
+    appName: 'Anxiety & Depression',
+    disclaimerText: 'This app provides useful information about anxiety and depression but is not a substitute for professional medical advice, diagnosis, or treatment. If you have a medical emergency or are experiencing thoughts of self-harm, call 988 (Suicide & Crisis Lifeline), contact your healthcare provider, or dial 911. Before acting on any of the information provided, please consult with your healthcare provider.',
   },
 };

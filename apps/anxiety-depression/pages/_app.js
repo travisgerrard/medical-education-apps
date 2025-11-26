@@ -42,7 +42,7 @@ const AppContent = ({ route, Component, pageProps }) => {
                   ) : (
                     <MainReadingView>
                       <Component {...pageProps} />
-                      <NextSectionButton route={route} lastSectionId="6" />
+                      <NextSectionButton route={route} lastSectionId="9" />
                     </MainReadingView>
                   )}
                 </MenuScrollProvider>

@@ -1,6 +1,6 @@
 export default {
-    appName: 'Falls Prevention',
-    placeholder: 'Search falls prevention topics...',
+    appName: 'Anxiety & Depression',
+    placeholder: 'Search anxiety and depression topics...',
     indexPath: '/searchIndex.json',
     boostFields: {
         title: 2,
