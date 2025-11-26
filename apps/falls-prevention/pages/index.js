@@ -18,7 +18,7 @@ export default function Index() {
   } else {
     const welcomeConfig = {
       welcomeText: "Ready to reduce your risk of falls?\nLet's get started with\nthe courses below.",
-      startPath: "/understanding-falls/introduction"
+      startPath: "/understanding-risk/introduction"
     };
     return <VerticalHalfPaginator data={DATA} welcomeConfig={welcomeConfig} />;
   }
