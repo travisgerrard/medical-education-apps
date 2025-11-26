@@ -12,6 +12,9 @@ const BodyContainer = styled.div`
   display: flex;
   background-color: white;
   justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
 `;
 
 const NavBar = styled.div`
@@ -68,7 +71,11 @@ const NavBarButton = styled.p`
 const TextContainer = styled.div`
   max-width: 600px;
   padding: 25px;
+  padding-left: max(25px, env(safe-area-inset-left));
+  padding-right: max(25px, env(safe-area-inset-right));
   min-height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
 
   @keyframes highlight-pulse {
     0%, 100% { background-color: #ffeb3b; }
