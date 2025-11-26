@@ -1,8 +1,6 @@
-import React, { useContext, useEffect } from 'react';
-import { VerticalHalfPaginator, DisclaimerPage } from '@medical-edu/shared-ui';
-import { AuthContext } from '@medical-edu/shared-contexts';
-import { DATA } from '../SectionOutline';
+import React from 'react';
 import VerticalHalfPaginator from '@medical-edu/shared-ui/TopHalfMainScreen/VerticalHalfPaginator';
+import { DATA } from '../SectionOutline';
 
 export default function Home() {
   const welcomeConfig = {
