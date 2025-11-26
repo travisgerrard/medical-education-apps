@@ -10,6 +10,8 @@ import { IoCaretUp, IoCaretDown, IoMenu } from 'react-icons/io5';
 import Card from '../Card/Card';
 import TopHalfMainScreenIndex from './TopHalfMainScreenIndex';
 import HamburgerMenu from '../HamburgerMenu';
+import HomeSearchBar from '../HomeSearchBar';
+import { useSearch } from '../SearchProvider';
 import {
   ReadingContext,
   NextToReadContext,
@@ -76,11 +78,13 @@ const StyledCardContainer = styled.div`
   width: 100%;
   transition: all 0.5s;
   top: ${(props) => props.listFullScreen};
+  scroll-snap-type: x mandatory;
 `;
 
 const StyledCard = styled.div`
   flex-shrink: 0;
   background-color: white;
+  scroll-snap-align: center;
 
   /* height: 80%; */
   width: 80vw;
@@ -90,6 +94,26 @@ const StyledCard = styled.div`
   border-radius: 25px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   /* top: 50vh; */
+`;
+
+const PageIndicator = styled.div`
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  bottom: 20px;
+  z-index: 10;
+  pointer-events: none;
+`;
+
+const Dot = styled.div`
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: ${(props) => (props.active ? '#555' : '#ccc')};
+  margin: 0 5px;
+  transition: all 0.3s ease;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
 `;
 
 
@@ -105,8 +129,13 @@ function VerticalHalfPaginator({ data }) {
   );
   const router = useRouter();
 
+  const [activeIndex, setActiveIndex] = useState(0);
+
   const scrollEvent = (e) => {
     setScrollValue(e.target.scrollLeft);
+    const cardWidth = window.innerWidth * 0.85; // 80vw + 2.5vw margin * 2
+    const index = Math.round(e.target.scrollLeft / cardWidth);
+    setActiveIndex(index);
   };
 
   useLayoutEffect(() => {
@@ -170,6 +199,7 @@ function VerticalHalfPaginator({ data }) {
   const [listFullScreen, setListFullScreen] = useState('50vh');
   const [offsetPercent, setOffsetPercent] = useState(1);
   const [menuOpen, setMenuOpen] = useState(false);
+  const { openSearch, config } = useSearch();
 
 
 
@@ -186,6 +216,9 @@ function VerticalHalfPaginator({ data }) {
           style={{ padding: '26px', cursor: 'pointer' }}
           onClick={() => setMenuOpen(true)}
         />
+        <div style={{ paddingRight: '26px' }}>
+          <HomeSearchBar onClick={openSearch} placeholder={config?.placeholder} />
+        </div>
       </Menu>
       <TopHalfContainer listFullScreen={listFullScreen}>
         <TopHalfMainScreen offsetPercent={offsetPercent} data={data} />
@@ -206,6 +239,11 @@ function VerticalHalfPaginator({ data }) {
           );
         })}
       </StyledCardContainer>
+      <PageIndicator>
+        {readingArray.map((_, index) => (
+          <Dot key={index} active={index === activeIndex} />
+        ))}
+      </PageIndicator>
     </Container>
   );
 }

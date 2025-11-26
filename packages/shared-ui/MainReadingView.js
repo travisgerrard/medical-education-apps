@@ -68,10 +68,12 @@ const NavBarButton = styled.p`
 const TextContainer = styled.div`
   max-width: 600px;
   padding: 25px;
-  /* padding-left: 25px;
-  padding-right: 25px;
-  padding-bottom: 25px; */
   min-height: 100vh;
+
+  @keyframes highlight-pulse {
+    0%, 100% { background-color: #ffeb3b; }
+    50% { background-color: #ffd54f; }
+  }
 `;
 
 export const Header = styled.h1`
@@ -125,6 +127,94 @@ export default function MainReadingView({ children }) {
     setTextSizeOnLoad();
   }, []);
 
+  // Handle search highlighting from URL parameter
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const highlight = params.get('highlight');
+
+    if (highlight) {
+      // Wait for content to render
+      setTimeout(() => {
+        highlightSearchTerm(highlight);
+      }, 300);
+    }
+  }, []);
+
+  const highlightSearchTerm = (searchTerm) => {
+    const container = document.querySelector('.mdx-content');
+    if (!container) return;
+
+    const text = container.textContent || '';
+    const lowerText = text.toLowerCase();
+    const lowerSearch = searchTerm.toLowerCase();
+
+    // Find first occurrence
+    const index = lowerText.indexOf(lowerSearch);
+    if (index === -1) return;
+
+    // Use TreeWalker to find text nodes
+    const walker = document.createTreeWalker(
+      container,
+      NodeFilter.SHOW_TEXT,
+      null
+    );
+
+    let charCount = 0;
+    let targetNode = null;
+    let targetOffset = 0;
+
+    while (walker.nextNode()) {
+      const node = walker.currentNode;
+      const nodeText = node.textContent || '';
+      const nodeLength = nodeText.length;
+
+      if (charCount + nodeLength > index) {
+        targetNode = node;
+        targetOffset = index - charCount;
+        break;
+      }
+
+      charCount += nodeLength;
+    }
+
+    if (!targetNode) return;
+
+    // Create highlight span
+    const range = document.createRange();
+    range.setStart(targetNode, targetOffset);
+    range.setEnd(targetNode, targetOffset + searchTerm.length);
+
+    const mark = document.createElement('mark');
+    mark.style.backgroundColor = '#ffeb3b';
+    mark.style.padding = '2px 4px';
+    mark.style.borderRadius = '3px';
+    mark.style.animation = 'highlight-pulse 2s ease-in-out';
+    mark.className = 'search-highlight';
+
+    try {
+      range.surroundContents(mark);
+
+      // Scroll to highlighted element
+      setTimeout(() => {
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 100);
+
+      // Remove highlight after 10 seconds
+      setTimeout(() => {
+        if (mark.parentNode) {
+          const parent = mark.parentNode;
+          while (mark.firstChild) {
+            parent.insertBefore(mark.firstChild, mark);
+          }
+          parent.removeChild(mark);
+          parent.normalize();
+        }
+      }, 10000);
+    } catch (e) {
+      console.warn('Could not highlight search term:', e);
+    }
+  };
+
   const { textSize } = textState;
   const increaseTextSizeGrayOut = textSize === '22px';
   const decreaseTextSizeGrayOut = textSize === '16px';
@@ -169,7 +259,7 @@ export default function MainReadingView({ children }) {
           </Link>
         </NavBar>
         <BodyContainer>
-          <TextContainer>
+          <TextContainer className="mdx-content">
             <MDXProvider components={mdComponents}>{children}</MDXProvider>
           </TextContainer>
         </BodyContainer>

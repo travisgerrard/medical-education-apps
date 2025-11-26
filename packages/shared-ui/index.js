@@ -5,7 +5,11 @@ export { default as DisclaimerPage } from './DisclaimerPage';
 export { default as NextSectionButton } from './NextSectionButton';
 export { default as MainReadingView, RegularText, Header } from './MainReadingView';
 export { default as HamburgerMenu } from './HamburgerMenu';
+export { default as AccessCodeScreen } from './AccessCodeScreen';
+export { SearchProvider, useSearch } from './SearchProvider';
+export { default as SearchModal } from './SearchModal';
+export { default as SearchButton } from './SearchButton';
+export { default as HomeSearchBar } from './HomeSearchBar';
 
 // TopHalfMainScreen components
-
 export { default as VerticalHalfPaginator } from './TopHalfMainScreen/VerticalHalfPaginator';
