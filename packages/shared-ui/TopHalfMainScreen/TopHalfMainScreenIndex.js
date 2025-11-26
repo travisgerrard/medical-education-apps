@@ -27,7 +27,7 @@ function useInterval(callback, delay) {
   }, [delay]);
 }
 
-function TopHalfMainScreenIndex({ percent, offsetPercent, nextOnReadingList }) {
+function TopHalfMainScreenIndex({ percent, offsetPercent, nextOnReadingList, welcomeText, startPath }) {
   const theme = useTheme();
   const { section, theNextSectionTitle, theNextSectionId } = nextOnReadingList;
   const [progress, setProgress] = useState(0);
@@ -57,6 +57,8 @@ function TopHalfMainScreenIndex({ percent, offsetPercent, nextOnReadingList }) {
         nextOnReadingList={nextOnReadingList}
         theNextSectionId={theNextSectionId}
         theNextSectionTitle={theNextSectionTitle}
+        welcomeText={welcomeText}
+        startPath={startPath}
       />
     </CircleContainer>
   );

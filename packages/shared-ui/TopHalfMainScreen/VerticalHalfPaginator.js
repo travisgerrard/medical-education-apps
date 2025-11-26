@@ -119,7 +119,7 @@ const Dot = styled.div`
 
 
 
-function VerticalHalfPaginator({ data }) {
+function VerticalHalfPaginator({ data, welcomeConfig = {} }) {
   const myRef = useRef(null);
 
   const { state: readingState, setReadingArray } = useContext(ReadingContext);
@@ -222,7 +222,12 @@ function VerticalHalfPaginator({ data }) {
         </div>
       </Menu>
       <TopHalfContainer listFullScreen={listFullScreen}>
-        <TopHalfMainScreen offsetPercent={offsetPercent} data={data} />
+        <TopHalfMainScreen
+          offsetPercent={offsetPercent}
+          data={data}
+          welcomeText={welcomeConfig.welcomeText}
+          startPath={welcomeConfig.startPath}
+        />
       </TopHalfContainer>
       <StyledCardContainer
         listFullScreen={listFullScreen}

@@ -16,6 +16,10 @@ export default function Index() {
   if (state.disclaimer === null) {
     return <DisclaimerPage />;
   } else {
-    return <VerticalHalfPaginator data={DATA} />;
+    const welcomeConfig = {
+      welcomeText: "Ready to reduce your risk of falls?\nLet's get started with\nthe courses below.",
+      startPath: "/understanding-falls/introduction"
+    };
+    return <VerticalHalfPaginator data={DATA} welcomeConfig={welcomeConfig} />;
   }
 }

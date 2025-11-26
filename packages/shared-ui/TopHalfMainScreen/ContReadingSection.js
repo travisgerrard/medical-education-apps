@@ -61,6 +61,8 @@ const ContReadingSection = ({
   nextOnReadingList,
   theNextSectionId,
   theNextSectionTitle,
+  welcomeText = "You're on your way to becoming\na diabetes expert! Let's start with\nthe courses below.",
+  startPath = "/what-is-diabetes/introduction",
 }) => {
   return (
     <div style={{ opacity: offsetPercent, zIndex: offsetPercent * 100 - 1 }}>
@@ -95,10 +97,10 @@ const ContReadingSection = ({
       ) : (
         <TextContainer>
           <TextCallout>Hello!</TextCallout>
-          <RegularText>You're on your way to becoming</RegularText>
-          <RegularText>a diabetes expert! Let's start with</RegularText>
-          <RegularText>the courses below.</RegularText>
-          <Link href="/what-is-diabetes/introduction">
+          {welcomeText.split('\n').map((line, i) => (
+            <RegularText key={i}>{line}</RegularText>
+          ))}
+          <Link href={startPath}>
             <ReadingButton>Get Reading Now</ReadingButton>
           </Link>
         </TextContainer>
