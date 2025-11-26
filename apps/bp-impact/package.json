@@ -9,7 +9,7 @@
     "export": "next export"
   },
   "engines": {
-    "node": "22.x"
+    "node": ">=18.18.0"
   },
   "dependencies": {
     "@medical-edu/shared-contexts": "*",
