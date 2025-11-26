@@ -99,7 +99,7 @@ const StyledCard = styled.div`
 const PageIndicator = styled.div`
   display: flex;
   justify-content: center;
-  position: absolute;
+  position: fixed;
   width: 100%;
   bottom: 20px;
   z-index: 10;
