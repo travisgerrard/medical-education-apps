@@ -9,6 +9,12 @@ const TextContainer = styled.div`
   justify-content: center;
   align-items: center;
   text-align: center;
+  width: 100%;
+  
+  & > a {
+    width: 100%;
+    display: block;
+  }
 `;
 
 const TextCallout = styled.p`
