@@ -104,16 +104,17 @@ const PageIndicator = styled.div`
   bottom: 20px;
   z-index: 10;
   pointer-events: none;
+  opacity: ${(props) => (props.listFullScreen === '50vh' ? '1' : '0')};
+  transition: opacity 0.3s ease;
 `;
 
 const Dot = styled.div`
-  height: 8px;
-  width: 8px;
+  height: 6px;
+  width: 6px;
   border-radius: 50%;
-  background-color: ${(props) => (props.active ? '#555' : '#ccc')};
-  margin: 0 5px;
+  background-color: ${(props) => (props.active ? 'rgba(0,0,0,0.6)' : 'rgba(0,0,0,0.2)')};
+  margin: 0 3px;
   transition: all 0.3s ease;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
 `;
 
 
@@ -239,7 +240,7 @@ function VerticalHalfPaginator({ data }) {
           );
         })}
       </StyledCardContainer>
-      <PageIndicator>
+      <PageIndicator listFullScreen={listFullScreen}>
         {readingArray.map((_, index) => (
           <Dot key={index} active={index === activeIndex} />
         ))}

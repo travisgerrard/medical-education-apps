@@ -117,8 +117,10 @@ const QuoteBox = styled.div`
 const Image = styled.img`
   max-width: 100%;
   height: auto;
+  width: 100%;
   margin: auto;
   display: block;
+  object-fit: contain;
 `;
 
 export default function MainReadingView({ children }) {
