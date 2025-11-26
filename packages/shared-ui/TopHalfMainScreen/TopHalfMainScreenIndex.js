@@ -5,6 +5,10 @@ import ContReadingSection from './ContReadingSection';
 
 const CircleContainer = styled.div`
   width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 
 function useInterval(callback, delay) {
