@@ -22,6 +22,7 @@
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
     "styled-components": "^6.1.19",
+    "axios": "^1.13.2",
     "babel-plugin-styled-components": "^2.1.4",
     "babel-plugin-inline-react-svg": "^2.0.2",
     "next-images": "^1.8.5",
