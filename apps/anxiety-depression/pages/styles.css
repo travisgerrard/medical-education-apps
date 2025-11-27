@@ -22,3 +22,83 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* GitHub-style alert boxes */
+blockquote {
+  padding: 12px 16px;
+  margin: 16px 0;
+  border-left: 4px solid #0969da;
+  border-radius: 6px;
+  background-color: #ddf4ff;
+}
+
+blockquote p:first-child {
+  margin-top: 0;
+  font-weight: 600;
+}
+
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* [!NOTE] alerts - blue */
+blockquote:has(> p:first-child:contains("[!NOTE]")) {
+  border-left-color: #0969da;
+  background-color: #ddf4ff;
+}
+
+/* Fallback for browsers without :has() support */
+blockquote p:first-child {
+  display: block;
+}
+
+blockquote p:first-child::before {
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+/* Style adjustments when [!NOTE] is present */
+blockquote:has(> p:first-child) p:first-child:first-letter,
+blockquote p:first-child {
+  color: #0969da;
+}
+
+/* [!IMPORTANT] alerts - purple */
+blockquote:has(> p:first-child:contains("[!IMPORTANT]")) {
+  border-left-color: #8250df;
+  background-color: #fbefff;
+}
+
+blockquote:has(> p:first-child:contains("[!IMPORTANT]")) p:first-child {
+  color: #8250df;
+}
+
+/* [!TIP] alerts - green */
+blockquote:has(> p:first-child:contains("[!TIP]")) {
+  border-left-color: #1a7f37;
+  background-color: #dafbe1;
+}
+
+blockquote:has(> p:first-child:contains("[!TIP]")) p:first-child {
+  color: #1a7f37;
+}
+
+/* [!WARNING] alerts - orange */
+blockquote:has(> p:first-child:contains("[!WARNING]")) {
+  border-left-color: #9a6700;
+  background-color: #fff8c5;
+}
+
+blockquote:has(> p:first-child:contains("[!WARNING]")) p:first-child {
+  color: #9a6700;
+}
+
+/* [!CAUTION] alerts - red */
+blockquote:has(> p:first-child:contains("[!CAUTION]")) {
+  border-left-color: #d1242f;
+  background-color: #ffebe9;
+}
+
+blockquote:has(> p:first-child:contains("[!CAUTION]")) p:first-child {
+  color: #d1242f;
+}
