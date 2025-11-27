@@ -1,14 +1,14 @@
 # Privacy Policy
 
-**Last updated: November 22, 2025**
+**Last updated: November 26, 2025**
 
 ## Introduction
 
-Welcome to Falls Prevention ("we," "our," or "us"). We are committed to protecting your privacy. This Privacy Policy explains how your information is collected, used, and disclosed by Falls Prevention.
+Welcome to Anxiety & Depression ("we," "our," or "us"). We are committed to protecting your privacy. This Privacy Policy explains how your information is collected, used, and disclosed by the Anxiety & Depression app.
 
 ## Information Collection and Use
 
-Falls Prevention is designed to provide educational information about preventing falls.
+The Anxiety & Depression app is designed to provide educational information about anxiety, depression, and evidence-based treatments.
 
 **We do not collect any personal data.** Any data entered into the app is stored locally on your device. We do not have access to this data, and it is not transmitted to any external servers.
 
