@@ -6,8 +6,8 @@ import {
 
 export const theme = {
   colors: {
-    primary: '#4A90E2',
-    link: '#3A7BC8',
+    primary: '#764ba2',
+    link: '#667eea',
   },
   icons: {
     arrow: IoArrowForward,
