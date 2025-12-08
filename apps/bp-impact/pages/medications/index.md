@@ -4,20 +4,20 @@ In this section we will discuss medications which you can use to control hyperte
 
 <hr />
 
-[Medication Overview](http://localhost:3000/medications/medication-overview)
+[Medication Overview](/medications/medication-overview)
 
-[Calcium Channel Blocker](http://localhost:3000/medications/ccb)
+[Calcium Channel Blocker](/medications/ccb)
 
-[ACEi](http://localhost:3000/medications/acei)
+[ACEi](/medications/acei)
 
-[ARB](http://localhost:3000/medications/arb)
+[ARB](/medications/arb)
 
-[Thiazide Diuretic](http://localhost:3000/medications/thiazide)
+[Thiazide Diuretic](/medications/thiazide)
 
-[Loop Diuretic](http://localhost:3000/medications/loopdiuretic)
+[Loop Diuretic](/medications/loopdiuretic)
 
-[Antimineralocorticoid](http://localhost:3000/medications/antimineralocorticoid)
+[Antimineralocorticoid](/medications/antimineralocorticoid)
 
-[Beta blockers](http://localhost:3000/medications/bblockers)
+[Beta blockers](/medications/bblockers)
 
-[Fast Facts](http://localhost:3000/medications/fast-facts)
+[Fast Facts](/medications/fast-facts)
