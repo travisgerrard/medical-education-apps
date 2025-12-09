@@ -1,0 +1,388 @@
+{
+  "pages": [
+    {
+      "id": "activity-aerobic-activity",
+      "title": "Aerobic Activity",
+      "section": "Activity",
+      "path": "/activity/aerobic-activity",
+      "content": "import aerobicActivity01 from './aerobic-activity01.jpg';\nimport aerobicActivity02 from './aerobic-activity02.png';\nimport aerobicActivity03 from './aerobic-activity03.png';\nimport aerobicActivity04 from './aerobic-activity04.png';\nimport aerobicActivity05 from './aerobic-activity05.png';\nimport SportsMedCopyright from '../SportsMedCopyright.js'\n\nAerobic Activity\n\nAerobic activity increases your heart rate and breathing. Build up to doing at least\n150 minutes/week of moderate-intensity activity (like a brisk walk, light cycling or water exercise) to vigorous activity (like jogging, singles tennis or hiking hills). You’ll improve the way your body stores and uses glucose, as well as your stamina and heart health.\n\nWhat?\n\nAny rhythmic, continuous activity\n\nHow often?\n\n3-7 Days/week\n\nHow hard?\n\nFairly light to somewhat hard\n\nHow much?\n\nStart w/a few minutes. Gradually build up to 30-60 minutes over the day.\n\nRemember: Fit in 5 or 10 minutes here and there. Or go for 20-30 minutes. Be active however and wherever you can. To lose weight, do twice as much activity.\n\nAerobic Activity Cautions\n\nTo stay safe and injury free:\n\n- Start with light to medium effort.\n- Gradually increase your pace and time spent being active. Start low and go slow!\n- Warm up and cool down at an easy pace before and after exercise.",
+      "headings": [
+        "What?",
+        "How often?",
+        "How hard?",
+        "How much?",
+        "Aerobic Activity Cautions"
+      ]
+    },
+    {
+      "id": "activity-getting-started",
+      "title": "Getting Started",
+      "section": "Activity",
+      "path": "/activity/getting-started",
+      "content": "import gettingStarted01 from './getting-started01.png';\nimport gettingStarted02 from './getting-started02.png';\nimport gettingStarted03 from './getting-started03.png';\nimport gettingStarted04 from './getting-started04.png';\nimport SportsMedCopyright from '../SportsMedCopyright.js'\n\nGetting Started\n\nDo you want to feel better, move better and sleep better? Experts now say that any physical activity counts toward better health – even just a few minutes! Being active is a great way to improve the way your body uses insulin and burn more calories to control your weight. Just one session of aerobic activity improves blood glucose (blood sugar) and insulin action up to 24 hours or longer!\n\nKeep It Simple\n\nJust sit less and move around more! Walk to the mailbox. Walk the dog. Dance in the kitchen. Take the stairs. Find opportunities to move throughout your day. It all adds up. Are there any exercises you should avoid?\n\nTalk with Your Doctor\n\nTalk to your health care provider before you start a new exercise program. Ask if you are on a diabetes drug that can cause low blood glucose or makes it hard to lose weight.\n\nBuild a Plan\n\nAsk to meet with a certified diabetes educator (CDE) or members of the health care team who can go over your diet, exercise and diabetes care plan.\n\nBlood Glucose\n\nLearn when you should check your blood glucose and what to do if the numbers are too low or too high. Know the signs of low blood glucose and what to do if it happens.\n\nDiabetes Tips and Cautions\n\nKeep a log of your exercise, blood glucose, meals and medications. This will help you learn how to keep your blood glucose in target.\n\nMany types of diabetes drugs don’t usually cause low blood glucose, so you may not need extra snacks before or after activity.\n\nSome diabetes drugs, like insulin and sulfonylureas, are more likely to cause low blood glucose. If you take these, tell your health care provider about any low blood glucose episodes. They can help you make changes to stay safe.\n\nIf you suspect low blood glucose (or experience shaking, abnormal sweating, loss of coordination) check it right away. If low, take 15 grams of carbohydrate. Carry glucose tablets, a sugary beverage or hard candy with you just in case.\n\nDiabetes can cause damage to the nerves, eyes, kidney and heart. Your exercise plan may need to be adjusted. Everyone with diabetes should practice good foot and skin care, get dilated eye exams, and see the doctor regularly.",
+      "headings": [
+        "Keep It Simple",
+        "Talk with Your Doctor",
+        "Build a Plan",
+        "Blood Glucose",
+        "Diabetes Tips and Cautions"
+      ]
+    },
+    {
+      "id": "activity",
+      "title": "Activity",
+      "section": "Activity",
+      "path": "/activity",
+      "content": "Activity\n\nLearn about how to be active when you have diabetes. Used with the permission of the American College of Sports Medicine\n\nGetting Started\n\nAerobic Activity\n\nStrength Training\n\nOther Types of Physical Activity",
+      "headings": []
+    },
+    {
+      "id": "activity-other-types-activity",
+      "title": "Other Types of Physical Activity",
+      "section": "Activity",
+      "path": "/activity/other-types-activity",
+      "content": "import otherTypesActivity01 from './other-types-activity01.jpg';\nimport otherTypesActivity02 from './other-types-activity02.png';\nimport otherTypesActivity03 from './other-types-activity03.png';\nimport otherTypesActivity04 from './other-types-activity04.png';\nimport otherTypesActivity05 from './other-types-activity05.png';\nimport SportsMedCopyright from '../SportsMedCopyright.js'\n\nOther Types of Physical Activity\n\nAerobic activity and strength training are at the heart of a program for those with type 2 diabetes. But you may enjoy and benefit from these other options.\n\nYoga, Pilates and Tai Chi\n\nAll help with balance, strength and relaxation and can lower your blood glucose\n\nTake more steps\n\nUse a smart phone or an activity tracker to measure your progress and stay motivated. Count your steps daily for the first week. Slowly build up to 7,000-9,000 steps/day.\n\nFlexibility\n\nStretch your muscles 2-3 days/week to the point of feeling tightness. Hold for 10-30 seconds (30- 60 seconds for older adults). For example, stretch your calves or the back of your thighs.\n\nBalance\n\nExercises may include standing on one foot, walking on a line, or using a balance board. Train in an uncluttered area and use a chair or wall for support if needed.\n\nRemember: Start where you are. Use what you have. Do what you can.",
+      "headings": [
+        "Yoga, Pilates and Tai Chi",
+        "Take more steps",
+        "Flexibility",
+        "Balance"
+      ]
+    },
+    {
+      "id": "activity-strength-training",
+      "title": "Strength Training",
+      "section": "Activity",
+      "path": "/activity/strength-training",
+      "content": "import strengthTraining01 from './strength-training01.jpg';\nimport strengthTraining02 from './strength-training02.png';\nimport strengthTraining03 from './strength-training03.png';\nimport strengthTraining04 from './strength-training04.png';\nimport strengthTraining05 from './strength-training05.png';\nimport SportsMedCopyright from '../SportsMedCopyright.js'\n\nStrength Training\n\nStrength training is important for people with diabetes because it builds muscle. Muscle tissue plays a big role in managing blood glucose, and you don’t have to be a body-builder! Plus, strength training can make daily activities like lifting laundry baskets or yardwork easier and safer.\n\nWhat?\n\nHand weights, resistance bands, weight machines, or your own body (for example, kitchen counter push-ups or chair squats)\n\nHow often?\n\n2-3 Days/week \\Rest day in between!\n\nHow hard?\n\nStart with light effort. Build up to medium or hard effort.\n\nHow much?\n\n10-15 repetitions to start (for each major muscle group) Build up to 8-10 reps of challenging effort.\n\nRemember**: If you need it, get help from a certified exercise professional. They can teach you the right way to do exercises and how to breathe properly.\n\nStrength Training Cautions\n\n- Slowly increase how much you lift and how often.\n- Avoid straining or holding your breath when lifting. This causes your blood pressure to go up.\n- If you have severe diabetic retinopathy, don’t lift heavy weights.",
+      "headings": [
+        "What?",
+        "How often?",
+        "How hard?",
+        "How much?",
+        "Strength Training Cautions"
+      ]
+    },
+    {
+      "id": "allposts",
+      "title": "All the posts",
+      "section": "Allposts",
+      "path": "/allposts",
+      "content": "import AllPosts from './AllPosts.js'\n\nAll the posts",
+      "headings": []
+    },
+    {
+      "id": "complete",
+      "title": "Congratulations!",
+      "section": "Complete",
+      "path": "/complete",
+      "content": "Congratulations!\n\nYou have completed the Virginia Mason Diabetes Education Application.\n\nKeep this site in mind as a reference in the future, and feel free to re-read it.\n\nIf you have questions that this application does not answer, please discuss them with your healthcare provider.",
+      "headings": []
+    },
+    {
+      "id": "food-and-blood-sugar-alcohol",
+      "title": "Alcohol",
+      "section": "Food And Blood Sugar",
+      "path": "/food-and-blood-sugar/alcohol",
+      "content": "import alcohol01 from './alcohol-01.jpg';\n\nAlcohol\n\nAlcohol can affect blood glucose in different ways. It is recommended to ask your healthcare team how alcohol will affect your overall health and if it is will interact with medications you are taking.\n\nDrinking alcohol can delay the absorption of food, so remember if you drink, to consume food with your beverage.\n\nAlcoholic beverages contain varying amounts of carbohydrate.\n\n- For example, sweet wine and microbrew beers contain more carbohydrate than dry wine or light beer.\n\n> Alcohol Note: for people on insulin, consuming too much alcohol can cause a dangerous condition of lowering the blood sugar level.",
+      "headings": []
+    },
+    {
+      "id": "food-and-blood-sugar-carb-counting",
+      "title": "Carbohydrate “Carb” Counting",
+      "section": "Food And Blood Sugar",
+      "path": "/food-and-blood-sugar/carb-counting",
+      "content": "import CarbTable from '../the-basics/CarbTable.js'\nimport AdaCopyright from './AdaCopyright.js'\nimport CaloriesImage from './caloriesonthenewnutritionfactslabel.png';\nimport carbCounting01 from './carb-counting01.jpg';\nimport carbCounting02 from './carb-counting02.jpg';\n\nCarbohydrate “Carb” Counting\n\nOur bodies need a certain amount of carbohydrate for energy every day.\n\n> Did you know that our brains and central nervous systems run primarily on glucose?\n\nMeal planning with carb counting is another type of meal planning done by adding up how many total grams of carbohydrates you are eating at a meal or snack. It is also important to eat on time and have the right portions of carbohydrate when you are taking medications for blood sugar management. Your dietitian or diabetes educator can help teach you the right amount for your body and energy needs.\n\nOne “carb” choice or serving has 15 grams of total carbohydrate\n\nThe following are all 1 carb choice (about 15 grams of carbohydrate)\n\n  \n    \n      Grains & starches\n    \n    \n    \n      White & brown bread - 1 thin slice of bread\n    \n    \n      White & brown rice - 1/3 cup cooked\n    \n    \n      Pasta & noodles - 1/3 cup cooked\n    \n    \n      Potatoes - ½ cup or 3 ounces\n    \n    \n      Potato chips - 1 small handful\n    \n    \n      Cereal - about ¾ cup\n    \n    \n      Oatmeal - ½ cup cooked\n    \n  \n  \n    \n      Milk & Yogurt\n    \n    \n    \n      Cow’s milk - 8 ounces\n    \n    \n      Almond milk - “look at food label”\n    \n    \n      Cow’s yogurt - “look at food label”\n    \n    \n      Coconut yogurt - “look at food label”\n    \n  \n  \n    \n      Lentils/Beans\n    \n    \n    \n      ½ cup cooked beans or chili\n    \n    \n      8 tablespoons or ½ cup hummus\n    \n  \n  \n    \n      Fruit\n    \n    \n    \n      1 small piece of fresh fruit\n    \n    \n      ½ large piece of fresh fruit\n    \n    \n      1 cup of melon or berries\n    \n    \n      2 tablespoons of dried fruit (like raisins)\n    \n    \n      ½ cup of fruit juice\n    \n  \n  \n    \n      Vegetables\n    \n    \n    \n      ½ cup of starchy vegetables - peas, corn\n    \n    \n      1 small potato or ½ large potato or ½ cup mashed potatoes\n    \n    \n      1 cup cooked winter squash (like acorn squash)\n    \n    \n      3 cups of uncooked or raw non-starchy vegetables\n    \n    \n      1 & ½ cups of cooked non-starchy vegetables\n    \n  \n  \n    \n      Added Sugar\n    \n    \n    \n      1 tablespoon of white cane or brown sugar\n    \n    \n      1 tablespoon of honey or agave\n    \n    \n      1 tablespoon of maple syrup\n    \n    \n      1 small cookie\n    \n    \n      ½ cup of ice cream\n    \n    \n      ¼ cup of sorbet\n    \n    \n      1 piece of chocolate candy\n    \n  \n\nHow to understand the Nutrition Facts Label\n\nYou can also see how many grams of carbohydrates are in a food by looking at the serving size or by looking at a nutrition food label.\n\nThe total amount of carbohydrate (listed in grams) is for all starches, dietary fiber, total sugars (including added sugar) and sugar alcohols that are in one serving of this food.\n\nSee the “conversion guide” below. As an example, this food item has 37 grams of total carbohydrate or 2 ½ carbohydrate choices.\n\n  \n    \n      \n        Total carbohydrate grams\n        Number of carbohydrate choices\n      \n    \n    \n      \n        0 to 5\n        0\n      \n      \n        6 to 10\n        ½\n      \n      \n        11 to 20\n        1\n      \n      \n        21 to 25\n        1 ½\n      \n      \n        26 to 35\n        2\n      \n      \n        36 to 40\n        2 ½\n      \n      \n        41 to 50\n        3\n      \n      \n        51 to 55\n        3 ½\n      \n      \n        56 to 65\n        4\n      \n      \n        66 to 70\n        4 ½\n      \n      \n        71 to 80\n        5\n      \n    \n  \n  \n\nIf you would like additional assistance with carbohydrate counting and/or meal planning, talk with your doctor about a referral to see a Registered Dietitian.",
+      "headings": [
+        "One “carb” choice or serving has 15 grams of total carbohydrate",
+        "How to understand the Nutrition Facts Label"
+      ]
+    },
+    {
+      "id": "food-and-blood-sugar",
+      "title": "Food and Blood Sugar",
+      "section": "Food And Blood Sugar",
+      "path": "/food-and-blood-sugar",
+      "content": "Food and Blood Sugar\n\nLooking into how food affects your blood sugar\n\nThe Basics\n\nThe Diabetes Plate Method\n\nCarb Counting\n\nAlcohol",
+      "headings": []
+    },
+    {
+      "id": "food-and-blood-sugar-the-basics",
+      "title": "Food and Blood Sugar",
+      "section": "Food And Blood Sugar",
+      "path": "/food-and-blood-sugar/the-basics",
+      "content": "import CarbTable from './CarbTable.js'\nimport theBasics from './the-basics.jpg';\n\nFood and Blood Sugar\n\nWhat, how much and when you eat is very important for managing your blood sugar level. How does food affect my blood sugar? This section of the app will focus on two methods of meal planning – the Diabetes Plate and Carbohydrate Counting.\n\nEating food is what gives us energy. Calories are energy and come from the amount of carbohydrate, protein, and fat that is found in food. Food also has water, vitamins, minerals, and antioxidants that do not give it calories, but provide other essential nutrients. Food works like the gas in your gas tank to give us energy.\n\nAll foods turn into energy or glucose (blood sugar) but at different speeds. Some foods will break down and increase blood sugar more quickly than others. Foods contain a combination of nutrients. Foods with similar amounts of carbohydrate, protein, and fat are put into the same food groups.\n\nThe foods that contain carbohydrate increase blood glucose the most. They start breaking down into glucose immediately in your mouth by the digestive enzymes in your saliva. As these foods travel in your body from your mouth -> stomach -> intestines, they are broken down into glucose that flows into your blood stream. The hormone insulin is the key that gets the sugar out of your blood and into the cells within your body to give you energy. Eating a balance of foods with fiber, protein and fat can stabilize blood glucose.\n\nCarbohydrate comes from foods with:\n\n      \n         Grains & Starches\n        \n        White & brown bread\n        White & brown\n        Rice\n        Potatoes\n        Potato chips\n        Cereal\n        Oatmeal\n        Tortillas\n      \n      \n        \n          Milks & Yogurt\n        \n        \n        \n          Cow’s milk\n        \n        \n          Almond milk\n        \n        \n          Cow's yogurt\n        \n        \n          Coconut yogurt\n        \n      \n      \n        \n          Lentils / Beans\n        \n        \n        \n          Hummus\n        \n        \n          Kidney beans\n        \n        \n          Refried beans\n        \n        \n          Chili\n        \n      \n      \n        \n          Vegetables\n        \n        \n        \n          Non-starchy\n        \n        \n          Starchy\n        \n      \n      \n        \n          Fruit\n        \n        \n        \n          Whole fruit\n        \n        \n          Fruit juice\n        \n        \n          Dried fruit\n        \n      \n      \n        \n          Added Sugar\n        \n        \n        \n          All sugar\n        \n        \n          Pop\n        \n        \n          Energy drinks\n        \n        \n          Ice cream\n        \n        \n          Cookies\n        \n        \n          Candy",
+      "headings": []
+    },
+    {
+      "id": "food-and-blood-sugar-the-diabetes-plate-method",
+      "title": "The Diabetes Plate Method",
+      "section": "Food And Blood Sugar",
+      "path": "/food-and-blood-sugar/the-diabetes-plate-method",
+      "content": "import CarbTable from '../the-basics/CarbTable.js'\nimport AdaCopyright from '../carb-counting/AdaCopyright.js'\n\nThe Diabetes Plate Method\n\nThe diabetes plate method is one of the easiest ways to meal plan. It is a visual guide to meal planning for the right portions of foods to manage your calorie needs from foods.\n\nTip: Start by using a 9 inch size plate. If your dinner plate is too large, you may use a salad plate.\n\nVegetables are classified into two groups: “non-starchy” or “starchy”.\n\nNon-starchy vegetables have much water and natural fiber (or pulp) that helps stabilize blood sugars. They have about one-third of carbohydrate compared to starchy vegetables.\n\n> Non-starchy vegetables:\n>\n> - artichoke\n> - asparagus\n> - bean sprouts\n> - beets\n> - broccoli\n> - brussel sprouts\n> - cabbage\n> - carrots\n> - cauliflower\n> - celery\n> - cucumber\n> - eggplant\n> - green beans\n> - greens (Arugula, Collard, Romaine, Spinach, Swiss chard)\n> - jicama\n> - kale\n> - kohlrabi\n> - leeks\n> - mushrooms\n> - okra\n> - onions\n> - peppers\n> - radishes\n> - spaghetti squash\n> - sugar snap peas\n> - summer squash (zucchini)\n> - tomato\n> - water chestnuts\n\nFill 25% of your plate with low-fat protein foods.\n\nFood containing protein can come from plant and animal sources:\n\n  \n    \n      Animal foods with protein\n    \n    \n    \n      fish and shellfish\n    \n    \n      beef\n    \n    \n      chicken\n    \n    \n      dairy (milk, yogurt, cheese)\n    \n    \n      turkey\n    \n    \n      eggs\n    \n    \n      pork\n    \n  \n  \n    \n      Plant foods with protein\n    \n    \n    \n      beans, lentils, hummus\n    \n    \n      nuts, nut butter\n    \n    \n      edamame, tofu, tempeh\n    \n    \n      meat-alternatives\n    \n    \n      * These foods also contain carbohydrate and natural fiber and can be incorporated into the meal plan.\n    \n  \n\nFill 25% of your plate with high quality carbohydrate foods.\n\nFoods containing carbohydrate are important for brain function and energy.\n\nAt the same time, foods with carbohydrate have the most effect on blood glucose levels (compared to foods with protein and fat).\n\nHigh quality carbohydrate foods are better on blood glucose than low quality carbohydrate foods because they have the natural fiber that digests much slower.\n\nHigh-quality carbohydrate foods:\n\n  \n    \n      Grains: High-quality\n    \n    \n    \n      100% whole-grain bread\n    \n    \n      whole-grain cereal\n    \n    \n      whole-grain and lentil pasta\n    \n    \n      brown and wild rice\n    \n    \n      oatmeal\n    \n    \n      Corn tortilla\n    \n    \n      Popcorn\n    \n    \n      Quinoa\n    \n  \n  \n    \n      Grains: Lower-quality\n    \n    \n    \n      white or “multi-grain” bread made with enriched flour\n    \n    \n      cereal made with enriched flour\n    \n    \n      white or enriched flour\n    \n    \n      white or semolina pasta\n    \n    \n      white rice\n    \n    \n      instant oatmeal\n    \n    \n      white flour tortilla\n    \n  \n\n  \n    \n      Beans and legumes\n    \n    \n    \n      Bean burgers\n    \n    \n      Black, kidney, pinto, and garbanzo beans\n    \n    \n      Hummus\n    \n  \n  \n    \n      Starchy vegetables\n    \n    \n    \n      Corn and green peas\n    \n    \n      acorn squash and butternut squash\n    \n    \n      parsnips\n    \n    \n      plantain\n    \n    \n      pumpkin\n    \n    \n      all types of potatoes\n    \n  \n  \n    \n      Dairy\n    \n    \n    \n      Milk\n    \n    \n      Yogurt (includes almond, coconut, cow, hemp, oat, rice, soy).\n    \n    \n      Note: cheese contains very little carbohydrate by the cheese-making process.\n    \n  \n  \n    \n      Fruit\n    \n    \n    \n      fresh\n    \n    \n      canned\n    \n    \n      frozen\n    \n    \n      dried\n    \n  \n  \n    \n      Limit lower-quality carbohydrate\n    \n    \n    \n      foods with added sugars.\n    \n    \n      Aim to consume less than 10% of your calories from added sugar.\n    \n  \n\nChoose water and beverages that have no calories.\n\nStaying hydrated is very important to your health and managing your blood sugars. Drinking enough water and low-calorie beverages can help lower the amount of glucose that is in your blood. Staying hydrated is also very important for your kidneys to function in filtering out blood.\n\nNo-calorie beverages include:\n\n- Water\n- Sparkling water\n- Hot and iced tea\n- Hot and iced coffee\n- Flavored water\n- Diet soda\n\n> Limit high-calorie beverages including:\n>\n> - fruit juices\n> - regular soda\n> - energy drinks\n> - beverages with added sugar\n>\n> Added sugars include\n>\n> - cane sugar\n> - brown sugar\n> - honey\n> - maple syrup\n> - jam or jelly\n> - agave syrup\n> - high fructose corn syrup",
+      "headings": []
+    },
+    {
+      "id": "health-care-doctor-visit-prep",
+      "title": "Preparing for your visit with your diabetes doctor",
+      "section": "Health Care",
+      "path": "/health-care/doctor-visit-prep",
+      "content": "Preparing for your visit with your diabetes doctor\n\nWhat your doctor will do\n\n- Have the most up-to-date information on diabetes treatment\n- Know how to use that information to make recommendations for your diabetes treatment\n- Explain why a treatment for your diabetes is recommended\n- Explain the reason for lab tests and what the results mean\n- Review any changes to your care plan to make sure you understand\n\nHow to get the most from your doctor visit\n\n- Bring your blood sugar log or your glucometer to your visit.\n- Bring your record of all medicines and supplements you take (prescription as well as over the counter). Let the team know if you need any refills of your prescription medications.\n- Let the team know at the beginning of the visit about specific topics you need to talk about.\n- Let the team know about any changes to your health since the last visit.\n\nPossible topics for discussion with your doctor\n\n- Your blood sugar tests results\n- Any very high or very low blood sugar levels and what time of day the blood sugar levels occur. This includes understanding symptoms and what to do about them\n- Your current medicines, when to take them, and how to adjust if needed.\n- Your meal plan and what kinds of food you eat\n- Anything that's getting in your way of your day-to-day diabetes management such as school, work or feelings; cost of medications or the ability to self-administer the medications. .",
+      "headings": []
+    },
+    {
+      "id": "health-care",
+      "title": "Health Care",
+      "section": "Health Care",
+      "path": "/health-care",
+      "content": "Health Care\n\nRecommended routine care for health when you have diabetes\n\nPreventative Care\n\nWhat to do if...\n\nReferences",
+      "headings": []
+    },
+    {
+      "id": "health-care-low-blood-sugar",
+      "title": "Low blood sugar - Hypoglycemia",
+      "section": "Health Care",
+      "path": "/health-care/low-blood-sugar",
+      "content": "import Hypoglycemia01 from './Hypoglycemia01.jpg';\nimport Hypoglycemia02 from './Hypoglycemia02.jpg';\n\nLow blood sugar - Hypoglycemia\n\n> - Know the signs of low blood sugar. You may feel nervous, sweaty, shaky, weak and have blurred vision.\n\n> - If you feel you have low blood sugar, immediately check your blood sugar.\n> - If your blood sugar is low (less than 70), eat or drink 15 grams of sugar.\n> - On quarter cup of apple juice, a hard candy or a glucose tablet all contain 15 grams of sugar.\n> - Recheck your blood sugar after 15 minutes. If your blood sugar is still  - If your blood sugar is low after 30 minutes, call 911.\n> - When your blood sugar is over 70mg/dL, eat a snack with carbohydrate and protein.",
+      "headings": []
+    },
+    {
+      "id": "health-care-preventative-care",
+      "title": "Recommended routine care for health",
+      "section": "Health Care",
+      "path": "/health-care/preventative-care",
+      "content": "import preventativeCare01 from './preventative-care01.jpg';\nimport preventativeCare02 from './preventative-care02.jpg';\nimport preventativeCare03 from './preventative-care03.jpg';\n\nRecommended routine care for health\n\nDiabetes Provider Vists\n\n> - If your A1C is less than 7 for 1-2 years-one diabetes care visit per year.\n> - If you are not on insulin-every 6 months\n> - If you are on insulin-every 3-4 months\n\nSchedule and keep your follow-up appointment with your health care team.\n\nAfter being discharged from the hospital, we recommend an appointment to\nassess your diabetes within one month, sooner if necessary.\n\nEyes-regular eye exams\n\n> - Diabetes can damage the blood vessels of the retina (diabetic retinopathy), potentially leading to blindness.\n> - Diabetes also increases the risk of other serious vision conditions, such as cataracts and glaucoma.\n> - An eye exam is recommended every one to two years.\n\nFoot exam\n\n> - Diabetes may cause you to have poor blood supply (circulation) to your legs and feet.\n> - Take care of your feet by wearing well-fitting shoes. Avoid wearingshoes that are too tight or rub.\n> - Keep your feet clean and dry.\n> - Inspect your feet daily for areas of rubbing or sores.\n> - A yearly foot exam with your diabetes provider is recommended.\n\nOral health\n\n> - Having diabetes contributes to the risk of developing gum disease or cavities.\n> - Brush and floss daily and see your dentist every six months.\n\nSmoking cessation\n\n> - Persons with diabetes should not smoke or use tobacco in any form.\n> - Smoking contributes to the risk of a heart attack or stroke.\n> - Smoking affects the blood vessels of the body impacting the blood flow to the feet, eyes, heart and kidneys.\n> - Insulin is less effective when exposed to high levels of nicotine and people with diabetes may need higher doses of insulin to control blood sugar.\n> - Free help in quitting smoking at 1-800-QUIT-NOW and at smokefree.gov and cdc.gov/tips.\n\nCoping\n\n> - Many people may feel stressed or sad when diagnosed with diabetes. Change in one’s health and lifestyle habits are hard. It is important to remember that these feelings are normal and there are methods for coping with change.\n> - Reach out to your support network such as friends and family.\n> - Learn about diabetes through group educational classes.\n> - Stay positive and exercise every day. Engage in hobbies you enjoy.\n> - If you should feel very down and lose interest in previous enjoyed activities, withdraw from your support system, or spend the day sleeping, these may be signs of depression. Please reach out to your provider, diabetes educator, family or friends for support.\n\nLipids\n\n> - Lipids are fats (Cholesterols, Triglycerides) that circulate in the blood that come from the food you eat. A high level of fats in the blood adds to the risk of a heart attack or stroke.\n> - Your diabetes provider may order a lipid blood test at least once a year.\n> - Your diabetes provider may prescribe a medication to help control the lipids in your blood.\n\nVaccinations\n\n> - It is recommended that you receive a flu (influenza) vaccine every year.\n> - It is also recommended that you receive a pneumonia (pneumococcal) vaccine.",
+      "headings": []
+    },
+    {
+      "id": "health-care-references",
+      "title": "References",
+      "section": "Health Care",
+      "path": "/health-care/references",
+      "content": "References\n\nMayo Clinic: Diabetes Medication Choice Decision Aid\n\nAmerican Diabetes Association - Standards of Medical Care in Diabetes — 2019 Abridged for Primary Care Providers\n\nAmerican Diabetes Association - Standards of Medical Care in Diabetes - 2018\n\nThe YMCA of Seattle offers a Diabetes Prevention Program - contact your local YMCA for more information about the program.",
+      "headings": []
+    },
+    {
+      "id": "health-care-setting-goals",
+      "title": "A Strategy for Setting Goals to Improve your Blood Sugar Control",
+      "section": "Health Care",
+      "path": "/health-care/setting-goals",
+      "content": "A Strategy for Setting Goals to Improve your Blood Sugar Control\n\nLifestyle choices such as food preferences and exercise habits affect blood sugar control and, over time, the potential for the long-term complications of diabetes. Changing lifelong ways is very hard! The good news is small changes in everyday living can lead to big improvement in diabetes management.\n\nOne strategy to consider that many people have found helpful is setting SMART goals. Using the SMART goal framework helps people focus on specific small achievable changes.\n\n> The SMART acronym stands for:\n>\n> - S: Specific\n> - M: Measurable\n> - A: Achievable\n> - R: Realistic\n> - T: Timely\n\nAs an example, many people would like to exercise more. If a person has not exercised routinely for a while, walking is a good start. An example of setting SMART goals for daily walking may be:\n\n- Specific: I will walk around the block every day when I get home from work. On the weekends, I will walk after my morning coffee.\n- Measurable: I will set a reminder on my phone to ping me at the same time every day and I will check off completion of the walk on my calendar.\n- Achievable: Before I start walking every day, I will choose sturdy footwear and rain gear so that I am ready to walk whatever the weather.\n- Relevant: I would like to get back into shape so that I feel better and burn a few calories. My doctor told me that I need to lose some weight and improve my blood sugar numbers.\n- Timely: I really want to live my best life possible and be here for my family.\n\n> People who report the best success using SMART goals is to write your goals down and share with family or friends. Remember start small and celebrate your wins!",
+      "headings": []
+    },
+    {
+      "id": "health-care-what-to-do-if",
+      "title": "What to do if....",
+      "section": "Health Care",
+      "path": "/health-care/what-to-do-if",
+      "content": "What to do if....\n\nHigh blood sugar\n\n> - High blood sugar (hyperglycemia) occurs when there is too much sugar in the blood.\n> - When high blood sugar continues for a long period of time, lasting damage to the body can occur.\n> - Know the signs of high blood sugar. You may have an increased thirst, blurred vision, frequent urination, increased hunger and numbness or tingling of the feet.\n> - High blood sugar occurs when glucose lowering medications are skipped; eat too much food or the wrong food; change or lowered activity levels, and sickness.\n> - Check your blood sugar. If your blood sugar is greater than 300 persistently over 6 to 8 hours, call your diabetes provider’s office.\n> - If your blood sugar is over 400, strongly consider presenting to the Emergency Room or an Urgent Care facility.\n\nI get sick\n\n> - Blood sugar can be more difficult to control when you are sick.\n> - Colds, fever, flu, nausea, vomiting and diarrhea are all examples of common illnesses that can cause problems for people with diabetes.\n> - Loss of body fluids (dehydration) from fever, vomiting, diarrhea, infection, and the stress of a sickness can all cause blood glucose levels to increase.\n> - Because of this, it is very important to take your diabetes medicines and to eat some form of carbohydrate food when you are sick.\n> - Liquid or soft foods are often tolerated, and they help to replace fluids.\n\nHome Care Instructions\n\nThese guidelines are intended for managing a short-term (48 hours or\nless) sickness:\n\n> - Take your usual dose of insulin or oral diabetes medicine, except for METFORMIN\n> - Continue to take your insulin even if you are unable to eat solid foods or are vomiting. Your insulin dose may need to be adjusted.\n> - Continue to take your insulin even if you are unable to eat solid foods or are vomiting. Your insulin dose may need to be adjusted.\n> - You will need to test your blood glucose more often, generally every 2-4 hours.\n> - Eat some form of food that contains carbohydrates. The carbohydrates can be in solid or liquid form. You should eat 45-50 grams of carbohydrates every 3-4 hours.\n> - Replace fluids if you have a fever, vomit, or have diarrhea.\n> - Call your diabetes provider for self-management support as needed.\n> - Be careful with over-the-counter medicines. They may contain sugar or types of sugars that can increase your blood glucose levels. Read the labels.\n\nSeek medical care if:\n\n> - You are unable to drink fluids, even small amounts\n> - You have nausea and vomiting for more than six hours.\n> - Your blood glucose level is more than 300 mg/dL.\n> - There is a change in mental status.\n> - You have a fever above 101 F.\n\nI need to have anesthesia\n\n> - If you take medication for diabetes and need to undergo a medical procedure, your diabetes provider may need to adjust your regular medication schedule until the procedure is finished.\n> - For safety, discuss your diabetes medication regimen with the provider who will be performing the procedure, your anesthesia and diabetes care provider.\n> - Remember to bring your glucometer or blood glucose log to all provider appointments.",
+      "headings": []
+    },
+    {
+      "id": "know-your-numbers-hemoglobin-a1c",
+      "title": "Hemoglobin A1C",
+      "section": "Know Your Numbers",
+      "path": "/know-your-numbers/hemoglobin-a1c",
+      "content": "import Hemoglobina1c01 from './Hemoglobina1c01.png';\n\nHemoglobin A1C\n\nWhile the glucometer tests blood sugar at a specific moment in time, the\nHemoglobin A1C reports the average blood glucose the previous two to\nthree months.\n\nThe Hemoglobin A1 blood test is drawn and processed at a laboratory.\n\nThe Hemoglobin A1C test measures the percentage of the hemoglobin in red\nblood cells that are coated with sugar.\n\nLike a sugary drink spilled on the floor that becomes sticky, as glucose\nfloats in the blood for a long period of time, glucose sticks to our red\nblood cells. Hemoglobin A1C measures how many of our red-blood cells\nhave glucose stuck to them.\n\nThe following chart is a comparison of A1C to estimated average glucose\nreadings you would get from a glucometer.\n\nThe A1C test is a common blood test to monitor how well you are managing\nyour diabetes. The higher your A1C is, the higher the risk of\ncomplications from diabetes.",
+      "headings": []
+    },
+    {
+      "id": "know-your-numbers",
+      "title": "Know your numbers-track your blood sugar",
+      "section": "Know Your Numbers",
+      "path": "/know-your-numbers",
+      "content": "Know your numbers-track your blood sugar\n\nBecause diabetes affects the body’s ability to use glucose for energy, it is important for persons with diabetes to routinely check their blood sugar during the day.\n\nUsing a glucometer\n\nTracking blood sugar\n\nHemoglobin A1C",
+      "headings": []
+    },
+    {
+      "id": "know-your-numbers-tracking-blood-sugars",
+      "title": "Tracking Blood Sugar",
+      "section": "Know Your Numbers",
+      "path": "/know-your-numbers/tracking-blood-sugars",
+      "content": "import TrackingBloodSugars01 from './TrackingBloodSugars01.png';\n\nTracking Blood Sugar\n\nIt is very important that you record your blood sugar measurements. Many\npersons use a blood glucose log such as posted on the American Diabetes\nAssociation website.\n\nPlease bring your blood glucose log or your glucometer with you when you\nvisit your diabetes provider.",
+      "headings": []
+    },
+    {
+      "id": "know-your-numbers-using-a-glucometer",
+      "title": "Testing blood sugar using a glucometer",
+      "section": "Know Your Numbers",
+      "path": "/know-your-numbers/using-a-glucometer",
+      "content": "import usingAGlucometer from './using-a-glucometer.jpg';\n\nTesting blood sugar using a glucometer\n\nThe most common method of testing blood sugars is using a glucometer.\n\nA glucometer measures the blood sugar at a specific point in time.\n\nUsing a small sharp needle called a lancet, a person pierces one finger.\nA small drop of blood is placed on the test strip which the glucometer\nprocesses the blood sugar. The blood sugar level is digitally displayed\nwithin seconds on the glucometer.\n\nThere are several different glucometer manufacturers who use different\ntest strips. Your insurance carrier will verify the test strips the\ninsurance covers.\n\nMany people check their blood sugar first thing in the morning, before\nmeals and at bedtime. Your diabetes provider may make recommendations\nfor additional blood sugar testing if you are making changes to your\nmedications, activity or diet.",
+      "headings": []
+    },
+    {
+      "id": "medications-dpp4-inhibitors",
+      "title": "DPP-4 inhibitors",
+      "section": "Medications",
+      "path": "/medications/dpp4-inhibitors",
+      "content": "import MedQuickFactBar from '../MedQuickFactBar.js'\n\nDPP-4 inhibitors\n\nOral medication.\n\nLow risk of hypoglycemia.\n\nDDP-4 stands for “Dipeptidyl peptidase-4”\n\nSeveral different medications in this class\n\n> - Sitagliptin\n> - Saxagliptin\n> - Linagliptin\n> - Alogliptin\n\nWorks by\n\n- Keeps a hormone from being broken down in the body that tells the\n  pancreas to release insulin when we eat\n- Blocking the release of the hormone glucagon\n\nEfficacy\n\n- Intermediate\n- 0.8-1.1% A1C lowering\n\nPros\n\n> - Daily dosing\n> - Well tolerated without many side effects including low frequency of\n>   low blood sugar\n> - Can be used for patients with kidney failure\n\nCons\n\n> - Modest blood sugar lowering compared to other diabetes medications\n> - Relatively expensive\n> - Rare inflammation of the pancreas (pancreatitis)",
+      "headings": []
+    },
+    {
+      "id": "medications-fast-facts",
+      "title": "Diabetes Medications",
+      "section": "Medications",
+      "path": "/medications/fast-facts",
+      "content": "import FastFacts01 from './FastFacts01.png';\nimport MedQuickFactSquare from '../MedQuickFactSquare.js'\n\nDiabetes Medications\n\nFast Facts\n\n{/  /}",
+      "headings": [
+        "Fast Facts"
+      ]
+    },
+    {
+      "id": "medications-glp1-agonists",
+      "title": "GLP-1 receptor agonists",
+      "section": "Medications",
+      "path": "/medications/glp1-agonists",
+      "content": "import MedQuickFactBar from '../MedQuickFactBar.js'\n\nGLP-1 receptor agonists\n\nInjection and oral medication.\n\nDose not cause low blood sugar (hypoglycemia).\n\nGLP-1 stands for “Glucagon-like peptide-1”\n\nSeveral different medications in this class\n\n> Twice Daily\n>\n> - Exenatide\n>\n> Daily\n>\n> - Liraglutide\n> - Lixisenatide\n>\n> Weekly\n>\n> - Dulaglutide\n> - Tirzepatide\n>\n> Weekly injection or Daily oral tablet\n>\n> - Semaglutide\n\nWorks by\n\n- Mimics a hormone that tells the pancreas to release more insulin when we eat or when blood sugars are high\n- Slows emptying of the stomach.\n- Blocks release of glucagon hormone.\n- Decreases appetite\n\nEfficacy High\n\nPros\n\n> - Assists with modest weight loss\n> - Does not cause hypoglycemia\n> - Meal / portion sizes can be reduced without increasing hunger.\n> - Heart disease benefit with liraglutide, semaglutide and exenatide extended release\n\nCons\n\n> - Relatively expensive\n> - Mostly Injectable (but some options are just once weekly injections)\n> - Nausea (especially after a large meal)\n> - Headache\n> - Diarrhea\n> - Rare inflammation of the pancreas (pancreatitis)",
+      "headings": []
+    },
+    {
+      "id": "medications",
+      "title": "Medications",
+      "section": "Medications",
+      "path": "/medications",
+      "content": "Medications\n\nIn this section we will discuss medications which you can use to control your diabetes.\n\nMedication Overview\n\nMetformin\n\nSulfonylureas\n\nDPP-4 inhibitors\n\nSGLT2 inhibitors\n\nGLP-1 receptor agonists\n\nInsulin\n\nFast Facts",
+      "headings": []
+    },
+    {
+      "id": "medications-insulin",
+      "title": "Insulin",
+      "section": "Medications",
+      "path": "/medications/insulin",
+      "content": "import MedQuickFactBar from '../MedQuickFactBar.js'\n\nInsulin\n\nInsulin is administered by injection.\n\nCan cause low blood sugar (hypoglycemia).\n\nMultiple types\n\n> Long Acting\n>\n> - Glargine (Lantus) (Toujeo) (Basaglar)\n> - Detemir (Levemir)\n> - Degludec (Tresiba)\n>\n> Short Acting\n>\n> - Lispro (Humalog)(Admelog)\n> - Aspart (Novolog)(Fiasp)\n> - Glulisine (Apidra)\n> - Regular\n>\n> Additional insulins\n>\n> - NPH (Humulin)(Novolin)\n> - Premixed 70/30 insulin\n\nWorks by\n\n- Forcing muscle and fat cells to clear sugar from the bloodstream.\n- Stops the liver from making more sugar.\n\nEfficacy Highest efficacy\n\nPros\n\n> - Dosage can be adjusted to accurately achieve desired A1C.\n> - Effective in virtually all patients with diabetes.\n> - Can be dosed very accurately for the patient’s target blood sugar.\n> - Highly personalized therapy for the patient.\n\nCons\n\n> - Price can be variable, and some of the newer types of insulin are more expensive.\n>   - Novolin (NPH) and Regular insulin are the least expensive insulins.\n>   - Please discuss with your provider the appropriate insulin for your diabetes care.\n> - Insulin is injectable.\n> - Insulin use frequently causes weight gain\n> - Insulin can cause hypoglycemia (low blood sugar).",
+      "headings": []
+    },
+    {
+      "id": "medications-medication-overview",
+      "title": "Medication Overview",
+      "section": "Medications",
+      "path": "/medications/medication-overview",
+      "content": "import medication01 from './Medication-01.jpg';\n\nMedication Overview\n\nCongratulations for making it this far in your diabetes education.\n\nBefore we start to discuss the many different medications available to\ncontrol diabetes, it's worth setting up some broad categories.\n\nThe first set of categories is oral medications versus injectable\nmedications.\n\nThe second set of categories is medications that may cause low blood\nsugar (hypoglycemia) versus those that do not.\n\nThere are a lot of medications for diabetes, and it can be overwhelming.\n\nYou don’t have to know how all medications work, but use this section to\nlearn more about medications that you may already be taking or ones that\nyou are interested in taking.",
+      "headings": []
+    },
+    {
+      "id": "medications-metformin",
+      "title": "Metformin",
+      "section": "Medications",
+      "path": "/medications/metformin",
+      "content": "import MedQuickFactBar from '../MedQuickFactBar.js'\n\nMetformin\n\nOral medication.\n\nDoes not cause hypoglycemia (low blood sugars).\n\nRecognized by the American Diabetes Association, and the American\nCollege of Physicians as the ideal single treatment for type 2 diabetes\nin most patients.\n\nWorks by making the body more sensitive to\ninsulin (especially the liver) and also helps to reduce the amount of\nglucose released by the liver while we sleep.\n\nEfficacy-high\n\nPotential heart disease benefit\n\nPros\n\n> - Does not cause weight gain\n> - Inexpensive\n\nCons\n\n> - Can cause stomach upset, nausea and/or diarrhea\n> - Should not be used in patients who have kidney failure, although the\n>   medication itself does not damage the kidneys\n> - Patients with advanced congestive heart failure or history of lactic\n>   acidosis may not be prescribed this medication. Please consult your\n>   provider about your treatment plan.",
+      "headings": []
+    },
+    {
+      "id": "medications-sglt2-inhibitors",
+      "title": "SGLT2 inhibitors",
+      "section": "Medications",
+      "path": "/medications/sglt2-inhibitors",
+      "content": "import MedQuickFactBar from '../MedQuickFactBar.js'\n\nSGLT2 inhibitors\n\nOral medication.\n\nDoes not cause low blood sugar (hypoglycemia).\n\nSGLT2 stands for “Sodium-glucose co-transporter 2”\n\nSeveral different medications in this class\n\n> - Empagliflozin (Jardiance)\n> - Canagliflozin (Farxiga)\n> - Dapagliflozin (Invokana)\n> - Ertugliflozin (Steglatro)\n\nWorks by blocking sugar reuptake from the urine\nback into the kidneys, causing glucose to be urinated out of the body.\n\nEfficacy Intermediate\n\nPros\n\n> - Heart disease benefit with empagliflozin and canagliflozin\n> - Assists with mild weight loss\n> - Does not cause hypoglycemia\n> - Protection from diabetic kidney injury\n\nCons\n\n> - Relatively expensive (no generics)\n> - Can cause urinary tract and vaginal/groin yeast infections\n> - Mild dizziness upon standing if not adequately hydrating\n> - Extremely rare foot and leg amputation with canagliflozin only",
+      "headings": []
+    },
+    {
+      "id": "medications-sulfonylureas",
+      "title": "Sulfonylureas",
+      "section": "Medications",
+      "path": "/medications/sulfonylureas",
+      "content": "import MedQuickFactBar from '../MedQuickFactBar.js'\n\nSulfonylureas\n\nOral medication.\n\nCan cause hypoglycemia (low blood sugars).\n\nSeveral different medications in this class\n\n> - Glimepiride\n> - Glipizide\n> - Glyburide\n\nWorks by stimulating the pancreas to release\nmore insulin thereby lowering blood sugar\n\nEfficacy - high\n\nPros\n\n> - Inexpensive\n> - Convenient dosing\n\nCons\n\n> - Can cause hypoglycemia\n> - Can cause weight gain\n> - In kidney failure, dosing may need to be adjusted or medication may\n>   need to be changed.\n> - In patients with allergies to sulfur containing medication, please\n>   consult your provider.",
+      "headings": []
+    },
+    {
+      "id": "self-administer-insulin",
+      "title": "How to self-administer insulin",
+      "section": "Self Administer Insulin",
+      "path": "/self-administer-insulin",
+      "content": "How to self-administer insulin\n\nIn this section you will learn about injecting insulin.\n\nVial & Syringe\n\nInsulin Pen\n\nInjections Sites\n\nSyringe Disposal",
+      "headings": []
+    },
+    {
+      "id": "self-administer-insulin-injection-sites",
+      "title": "Common Injection Sites for Insulin",
+      "section": "Self Administer Insulin",
+      "path": "/self-administer-insulin/injection-sites",
+      "content": "import InjectionSites01 from './InjectionSites01.png';\nimport InjectionSites02 from './InjectionSites02.png';\n\nCommon Injection Sites for Insulin\n\nA person needs to inject insulin into the layer of fat directly under\nthe skin, known as subcutaneous tissue.\n\nThe abdomen is a common site for insulin injections that many people\nwith diabetes choose. The abdomen is easy to access and often less\npainful than other sites due to protection by fat, a greater surface\narea and less muscle. The site should be between two inches between the\nwaist and the hip bones and two inches away from the belly button. Do\nnot inject near any scar tissue.\n\nDaily, the insulin injection sites should be rotated so that no one site\nis injected frequently. A person’s skin may become thickened over time,\naffecting the body’s ability to absorb the insulin.\n\nA picture of options for daily rotation of insulin injection sites of\nthe abdomen is depicted below. Additional areas of the body where\ninsulin may be injected include the thighs, buttocks and arms as shown\nin the illustration. Avoid injecting into the same site over and over.\nSpeak to your health provider for any questions related to insulin\ninjections.",
+      "headings": []
+    },
+    {
+      "id": "self-administer-insulin-insulin-pen",
+      "title": "How to Use an Insulin Pen",
+      "section": "Self Administer Insulin",
+      "path": "/self-administer-insulin/insulin-pen",
+      "content": "import InsulinPen01 from './InsulinPen01.png';\nimport InsulinPen02 from './InsulinPen02.png';\nimport InsulinPen03 from './InsulinPen03.png';\nimport InsulinPen04 from './InsulinPen04.png';\nimport InsulinPen05 from './InsulinPen05.png';\nimport InsulinPen06 from './InsulinPen06.png';\nimport InsulinPen07 from './InsulinPen07.png';\nimport InsulinPen08 from './InsulinPen08.png';\nimport InsulinPen09 from './InsulinPen09.png';\nimport InsulinPen10 from './InsulinPen10.png';\nimport InsulinPen09b from './InsulinPen09b.png';\n\nHow to Use an Insulin Pen\n\nInsulin pens got their name because they are about the size and shape of\nwriting pens. Insulin pens contain cartridges pre-filled with insulin.\nThe pen is dialed for your recommended insulin dose.\n\nGather the supplies you will need:\n\n> - ✓ Insulin pen\n> - ✓ Needle\n> - ✓ Alcohol swab\n\nWash your hands.\n\nRemove paper tab and needle covers.\n\nGet the needle ready.\n\nPull the paper tab off of pen needle.\n\nRemove inner needle cover to expose the needle. Throw inner needle cover\naway.\n\nGet the pen ready.\n\nUsing an alcohol swab, clean the top of the insulin pen.\n\nScrew needle onto insulin end of the pen.\n\nRemove outer needle cover.\n\nRemove the needle cover.\n\nPrime the pen and clear air from the needle. Turn the dose selector knob\nat the end of the pen to 2 units — watch dose markings change with\nturning of the knob.\n\nHold the pen with the needle pointing upward.\n\nPress dose knob up completely while watching for insulin drop or stream\nto appear.\n\nThe dial should be back at zero after completing the priming.\n\nTurn dose knob to dial in your insulin dose. The pen will allow you to\nreceive only the amount that you have set.\n\nDouble-check the dose window to make sure the correct dose is selected.\n\nClean a small area of skin with an alcohol swab.\n\nLet the alcohol dry completely before you inject.\n\nAn injection practice pillow is used for illustration in the pictures\nabove.\n\nInject insulin.\n\nCurl fingers around the upper end of the pen to hold secure. Poise\nthumb, above the dose knob.\n\nGently pinch up skin with your free hand.\n\nQuickly insert the needle at a 90° angle. Release the pinch.\n\nUse our thumb to press down on the dose knob until it stops-the dose\nwindow will be back at zero. Leave the needle in place for 5–10 seconds\nto help prevent insulin from leaking out of the injection site.\n\nPull the needle from your skin and press your finger or an alcohol swab\nover the spot you gave your injection.\n\nUtilize the “scoop” method of removing the insulin needle from the pen\ncartridge.\n\nPlace the pen on a hard surface next to the external pen needle cover.\n\nGuide the used pen needle into the external pen needle cover.\n\nTwist the needle cover onto the pen twisting until the needle is removed\nfrom the cartridge.\n\nRemove needle from cartridge.\n\nDispose your used syringe needle.",
+      "headings": []
+    },
+    {
+      "id": "self-administer-insulin-syringe-disposal",
+      "title": "How to Properly Dispose Used Syringe Needles",
+      "section": "Self Administer Insulin",
+      "path": "/self-administer-insulin/syringe-disposal",
+      "content": "import syringeDisposal from './SyringeDisposal.jpg';\n\nHow to Properly Dispose Used Syringe Needles\n\nDo not attempt to recap a used syringe needle.\n\nDispose of the used syringe into a hard plastic container with a\nscrew-on lid or lid that seals tightly.\n\nDispose of the filled container in a secure sharps disposal box.\n\nFor more information, visit these websites:\n\n> - King County Public Health\n> - Center for Disease Control\n> - SafeNeedleDisposal.org",
+      "headings": []
+    },
+    {
+      "id": "self-administer-insulin-vial-and-syringe",
+      "title": "Drawing and Injecting Insulin Using a Vial and Syringe",
+      "section": "Self Administer Insulin",
+      "path": "/self-administer-insulin/vial-and-syringe",
+      "content": "import VialSyringe01 from './VialSyringe01.png';\nimport VialSyringe02 from './VialSyringe02.png';\nimport VialSyringe03 from './VialSyringe03.png';\nimport VialSyringe04 from './VialSyringe04.png';\nimport VialSyringe05 from './VialSyringe05.png';\nimport VialSyringe06 from './VialSyringe06.png';\nimport VialSyringe07 from './VialSyringe07.png';\nimport VialSyringe08 from './VialSyringe08.png';\nimport VialSyringe09 from './VialSyringe09.png';\nimport VialSyringe10 from './VialSyringe10.png';\n\nDrawing and Injecting Insulin Using a Vial and Syringe\n\nGather the supplies you will need:\n\n> - ✓ Alcohol swabs\n> - ✓ Insulin syringe\n> - ✓ Bottle of insulin\n\nWash your hands.\n\nIf you are taking cloudy insulin such as NPH, or premixed insulin, roll\nthe bottle between the palms of your hands until it is uniformly cloudy.\n\nNever shake a bottle of insulin.\n\nPrepare the insulin vial: Wipe the top of the insulin bottle with an\nalcohol swap.\n\nRemove the needle cap and pull the plunger down to allow air to enter\nthe syringe.\n\nThe air in the syringe should be equal to your dose of insulin.\n\nPush the needle through the center of the rubber top of the insulin\nbottle.\n\nInject air into the insulin bottle by pushing the plunger down until all\nof the air is in the vial.\n\nLeave the needle in the insulin bottle. This makes it easier for you to\ndraw the insulin out of the bottle.\n\nTurn the insulin bottle and syringe upside down.\n\nPull the plunger back until the tip of the plunger is at the line\nindicating the number of insulin units you need.\n\nLook for air bubbles in your syringe.\n\nAir bubbles in the syringe mean that you will get less insulin.\n\nIf you have air bubbles stuck at the walls of the syringe, you can\ngently tap the side of the syringe to let the air bubble float to the\ntop and push back into the insulin vial.\n\nCheck your syringe to make sure you have your insulin dose and no air\nbubbles.\n\nAsk your nurse to show you other ways to get rid of air bubble.\n\nIf needle bends while drawing up the insulin, do not straighten it.\nProperly dispose of the syringe and start again.\n\nPull the needle out of the vial.\n\nClean a small area of skin with an alcohol swab. Let the alcohol dry\ncompletely before you inject. An injection practice pillow is used for\nillustration in the picture shown above.\n\nPick up the syringe and hold it like a pencil.\n\nDo not let the needle touch anything.\n\nPinch up your skin.\n\nPush the needle through the skin.\n\nPush the insulin in with the plunger.\n\nWait 3–5 seconds before pulling out the needle to make sure no insulin\nleaks out of your skin.\n\nPull the needle out of your skin.\n\nPress your finger or an alcohol swab over the spot you gave your\ninjection.\n\nDo not rub the injection site.\n\nDispose your used syringe needle.",
+      "headings": []
+    },
+    {
+      "id": "what-is-diabetes-diagnosing-diabetes",
+      "title": "Diagnosing Type 2 Diabetes",
+      "section": "What Is Diabetes",
+      "path": "/what-is-diabetes/diagnosing-diabetes",
+      "content": "import diagnosingDiabetes01 from './diagnosing-diabetes01.jpg';\nimport MultiChoiceQuestion from '../../MultiChoiceQuestion'\n\nDiagnosing Type 2 Diabetes\n\nSigns and symptoms of type 2 diabetes often develop slowly. People may\nhave diabetes for years and not know it.\n\nPersons with type 2 diabetes may experience increased thirst, frequent\nurination, increased hunger, unintended weight loss, fatigue, blurred\nvision, slow wound healing and frequent infections.\n\nPersons are generally diagnosed with diabetes by a blood test called\nHemoglobin A1C.\n\nThe Hemoglobin A1C test measures the average blood sugar during the past\ntwo to three months.\n\nLike a sugary drink spilled on the floor that becomes sticky, as glucose\nfloats in the blood for a long period of time, glucose sticks to our red\nblood cells. Hemoglobin A1C measures how many of our red-blood cells\nhave glucose stuck to them.\n\nA normal A1C is less than 5.7%. An A1C greater than 6.5% or higher on\ntwo separate tests is a diagnosis of diabetes. An A1C between 5.7 and\n6.4% is generally considered prediabetes.",
+      "headings": []
+    },
+    {
+      "id": "what-is-diabetes-goals-of-diabetes-care",
+      "title": "Goals of diabetes care",
+      "section": "What Is Diabetes",
+      "path": "/what-is-diabetes/goals-of-diabetes-care",
+      "content": "import goalsOfDiabetesCare from './goals-of-diabetes-care.jpg';\nimport MultiChoiceQuestion from '../../MultiChoiceQuestion'\n\nGoals of diabetes care\n\nThe goal of care in treatment of type 2 diabetes is to achieve and\nmaintain an ideal blood glucose, healthy fat levels of the blood\n(lipids / cholesterol), and blood pressure control to prevent or delay problems from\ndiabetes.\n\nSome persons can manage their blood glucose by eating well and\nexercising regularly. Losing excess weight and taking care of yourself\nby following a self-management plan will help a person achieve blood\nglucose control.\n\n> The goal for the blood glucose is to range between 80-130mg/dL before a meal and less than 180 mg/dL 1-2 hours after a meal.\n\nFor most patients, the hemoglobin A1C goal is  However, depending on your age and other medical conditions, your provider may set a higher A1C goal.\n\nSome patients need medication or insulin to manage their blood sugar.\n\nYour diabetes provider may prescribe oral medications or insulin to keep\nyour blood sugar at the target levels.\n\nBlood pressure goal for many patients is 140/90\n\n> Your provider may choose an individualized blood pressure goal based on your medical history and age.\n\nGoals for lipid management will be defined by your provider based on\nyour overall health, age and goals of care.\n\nDiabetes Education resources\n\nThe YMCA of Seattle offers a Diabetes Prevention Program - contact your local YMCA for more information about the program.",
+      "headings": [
+        "Diabetes Education resources"
+      ]
+    },
+    {
+      "id": "what-is-diabetes",
+      "title": "What is Diabetes",
+      "section": "What Is Diabetes",
+      "path": "/what-is-diabetes",
+      "content": "What is Diabetes\n\nIn this section you will learn the diabetes mellitus (DM) basics, regarding what diabetes is and how it is diagnosed.\n\nIntroduction\n\nUnderstanding Diabetes\n\nInsulin Resistance\n\nDiagnosing Diabetes\n\nNegative Effects of Hyperglycemia\n\nGoals of diabetes care",
+      "headings": []
+    },
+    {
+      "id": "what-is-diabetes-insulin-resistance",
+      "title": "Understanding insulin resistance",
+      "section": "What Is Diabetes",
+      "path": "/what-is-diabetes/insulin-resistance",
+      "content": "import InsulinResistance01 from './InsulinResistance01.jpg';\nimport InsulinResistance02 from './InsulinResistance02.jpg';\nimport InsulinResistance03 from './InsulinResistance03.jpg';\n\nimport MultiChoiceQuestion from '../../MultiChoiceQuestion'\n\nUnderstanding insulin resistance\n\nThe food we eat is broken down in the stomach into glucose that is\nabsorbed into our blood. The blood carries the glucose to our muscles\nand organs where the glucose is used as fuel.\n\nGlucose does not move freely into the muscle and organs on its own.\nThere is a door it must pass through that is controlled by the hormone,\ninsulin. Insulin is the key that allows glucose to move from the blood\nto the body.\n\nIn persons with type 2 diabetes, the body does not respond to the\ninsulin signal of high levels of glucose in the blood. The insulin does\nnot open the cell doors to the muscles and the organs. In response, the\nbody produces large quantities of insulin from the signal for the key to\nunlock cells for glucose. Thus, excess levels of insulin and glucose are\ncirculating in the blood which the body cannot use.\n\nPatients can reduce insulin resistance and help the body become more\nsensitive to insulin by exercising, following a diabetic diet low in\ncarbohydrates and fats, and taking all medications as prescribed. A\ndiabetic diet means eating healthy food choices at regular mealtimes.",
+      "headings": []
+    },
+    {
+      "id": "what-is-diabetes-introduction",
+      "title": "Introduction",
+      "section": "What Is Diabetes",
+      "path": "/what-is-diabetes/introduction",
+      "content": "import MultiChoiceQuestion from '../../MultiChoiceQuestion'\nimport introduction01 from './introduction01.jpg';\n\nIntroduction\n\nType 2 diabetes is an illness where the body is unable to process the\nglucose (sugar) in your blood from the food you eat.\n\nDiabetes is a serious condition that requires daily self-care.\n\nMany people in the United States have diabetes and do not know it.\n\nChanges to the way the body processes sugar may occur long before the\npatient is diagnosed with diabetes.\n\nThe purpose of this program is to provide people with information for\nsuccess in diabetes self-management and to prevent or delay the\nlong-term effects of diabetes that may occur.\n\n> This program is not a substitute for a provider consultation or visit\n> with a diabetes educator.",
+      "headings": []
+    },
+    {
+      "id": "what-is-diabetes-negative-effects-of-hyperglycemia",
+      "title": "Complications of Uncontrolled Diabetes",
+      "section": "What Is Diabetes",
+      "path": "/what-is-diabetes/negative-effects-of-hyperglycemia",
+      "content": "import MultiChoiceQuestion from '../../MultiChoiceQuestion'\nimport NegativeEffects01 from './NegativeEffects01.jpg';\nimport NegativeEffects02 from './NegativeEffects02.jpg';\nimport NegativeEffects03 from './NegativeEffects03.jpg';\nimport NegativeEffects04 from './NegativeEffects04.jpg';\nimport NegativeEffects05 from './NegativeEffects05.jpg';\n\nComplications of Uncontrolled Diabetes\n\n> - Diabetes can damage the small blood vessels in the kidney.\n> - Over time the damaged kidneys are unable to filter the blood of excess fluid and waste from the body.\n> - Chronic kidney disease if left untreated can get worse over time and progress to kidney failure.\n> - When the kidneys stop working, dialysis or a kidney transplant may be necessary for life.\n> - Chronic kidney disease can contribute to the development of heart disease or stroke.\n> - Not all patients with chronic kidney disease develop kidney failure.\n> - Blood sugar and blood pressure control can help prevent the development of chronic kidney disease.\n> - Lose weight, quit smoking and take your medications as prescribed. Choose foods lower in salt and eat more fruits and vegetables.\n\n> - Over time, high blood sugar can damage the nerves in your body.\n> - One type of nerve damage affects the nerves in legs.\n> - Symptoms can range from mild numbness of the feet to pain that makes it difficult to do normal activities.\n> - Persons may develop sores or wounds on their feet that the person may not feel which may delay healing or cause more damage.\n\n> - People with diabetes are 2 to 4 times likely to develop a stroke or heart disease.\n> - The extra sugar in the blood can cause increased deposits of fats or blood clots in the blood vessel walls. Blood clots or deposits can reduce blood flow or completely cut off blood flow to the brain or heart.\n> - Brain and heart function depend on receiving oxygen flow from the blood.\n> - By following a heart healthy diabetes diet, avoiding all tobacco, exercising and taking all your medications as prescribed, you may prevent stroke or heart attack.\n> - Call 911 for any symptoms of stroke or heart attack.\n\n> - High blood sugar can damage the blood vessels in the eye leading to a condition called diabetic retinopathy.\n> - Early symptoms include floaters, blurriness, dark areas of vision and difficulty perceiving color.\n> - Over time, blindness can occur.\n> - This is why you should get an eye exam every one to two years.",
+      "headings": []
+    },
+    {
+      "id": "what-is-diabetes-understanding-diabetes",
+      "title": "Understanding Type 2 Diabetes",
+      "section": "What Is Diabetes",
+      "path": "/what-is-diabetes/understanding-diabetes",
+      "content": "import MultiChoiceQuestion from '../../MultiChoiceQuestion'\nimport understanding01 from './understanding01.jpg';\n\nUnderstanding Type 2 Diabetes\n\nOur bodies use glucose as fuel by taking glucose into cells, the\nbuilding blocks of our body, and changing the glucose into energy.\n\nGlucose does not go into our cells on its own. It needs a very important\nhormone called insulin to enter the cells of our body.\n\nIn most diabetics there is an excess of insulin in the blood, but the\ncells do not respond well to the hormone insulin.\n\nWhen the body does not respond normally to the insulin signal, excess\nsugars build up in the blood instead of going into the tissue cells.\n\nWhen the cells of the body do not respond well to the hormone insulin,\nthe condition is called insulin resistance.\n\nInsulin resistance leads to high levels of sugar in the blood\n(hyperglycemia).\n\nThe effect of prolonged high blood sugar levels can cause many health\nproblems which we will discuss later.",
+      "headings": []
+    }
+  ],
+  "generatedAt": "2025-12-09T02:59:55.129Z",
+  "totalPages": 44
+}

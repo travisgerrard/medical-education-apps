@@ -1,0 +1,381 @@
+{
+  "pages": [
+    {
+      "id": "activity-aerobic-activity",
+      "title": "Aerobic Activity",
+      "section": "Activity",
+      "path": "/activity/aerobic-activity",
+      "content": "import aerobicActivity01 from './aerobic-activity01.jpg';\nimport aerobicActivity02 from './aerobic-activity02.png';\nimport aerobicActivity03 from './aerobic-activity03.png';\nimport aerobicActivity04 from './aerobic-activity04.png';\nimport aerobicActivity05 from './aerobic-activity05.png';\nimport SportsMedCopyright from '../SportsMedCopyright.js'\n\nAerobic Activity\n\nAerobic activity increases your heart rate and breathing. Build up to doing at least\n150 minutes/week of moderate-intensity activity (like a brisk walk, light cycling or water exercise) to vigorous activity (like jogging, singles tennis or hiking hills). You’ll improve the way your body stores and uses glucose, as well as your stamina and heart health.\n\nWhat?\n\nAny rhythmic, continuous activity\n\nHow often?\n\n3-7 Days/week\n\nHow hard?\n\nFairly light to somewhat hard\n\nHow much?\n\nStart w/a few minutes. Gradually build up to 30-60 minutes over the day.\n\nRemember: Fit in 5 or 10 minutes here and there. Or go for 20-30 minutes. Be active however and wherever you can. To lose weight, do twice as much activity.\n\nAerobic Activity Cautions\n\nTo stay safe and injury free:\n\n- Start with light to medium effort.\n- Gradually increase your pace and time spent being active. Start low and go slow!\n- Warm up and cool down at an easy pace before and after exercise.",
+      "headings": [
+        "What?",
+        "How often?",
+        "How hard?",
+        "How much?",
+        "Aerobic Activity Cautions"
+      ]
+    },
+    {
+      "id": "activity-getting-started",
+      "title": "Getting Started",
+      "section": "Activity",
+      "path": "/activity/getting-started",
+      "content": "import gettingStarted01 from './getting-started01.png';\nimport gettingStarted02 from './getting-started02.png';\nimport gettingStarted03 from './getting-started03.png';\nimport gettingStarted04 from './getting-started04.png';\nimport SportsMedCopyright from '../SportsMedCopyright.js'\n\nGetting Started\n\nDo you want to feel better, move better and sleep better? Experts now say that any physical activity counts toward better health – even just a few minutes! Being active is a great way to improve the way your body uses insulin and burn more calories to control your weight. Just one session of aerobic activity improves blood glucose (blood sugar) and insulin action up to 24 hours or longer!\n\nKeep It Simple\n\nJust sit less and move around more! Walk to the mailbox. Walk the dog. Dance in the kitchen. Take the stairs. Find opportunities to move throughout your day. It all adds up. Are there any exercises you should avoid?\n\nTalk with Your Doctor\n\nTalk to your health care provider before you start a new exercise program. Ask if you are on a diabetes drug that can cause low blood glucose or makes it hard to lose weight.\n\nBuild a Plan\n\nAsk to meet with a certified diabetes educator (CDE) or members of the health care team who can go over your diet, exercise and diabetes care plan.\n\nBlood Glucose\n\nLearn when you should check your blood glucose and what to do if the numbers are too low or too high. Know the signs of low blood glucose and what to do if it happens.\n\nDiabetes Tips and Cautions\n\nKeep a log of your exercise, blood glucose, meals and medications. This will help you learn how to keep your blood glucose in target.\n\nMany types of diabetes drugs don’t usually cause low blood glucose, so you may not need extra snacks before or after activity.\n\nSome diabetes drugs, like insulin and sulfonylureas, are more likely to cause low blood glucose. If you take these, tell your health care provider about any low blood glucose episodes. They can help you make changes to stay safe.\n\nIf you suspect low blood glucose (or experience shaking, abnormal sweating, loss of coordination) check it right away. If low, take 15 grams of carbohydrate. Carry glucose tablets, a sugary beverage or hard candy with you just in case.\n\nDiabetes can cause damage to the nerves, eyes, kidney and heart. Your exercise plan may need to be adjusted. Everyone with diabetes should practice good foot and skin care, get dilated eye exams, and see the doctor regularly.",
+      "headings": [
+        "Keep It Simple",
+        "Talk with Your Doctor",
+        "Build a Plan",
+        "Blood Glucose",
+        "Diabetes Tips and Cautions"
+      ]
+    },
+    {
+      "id": "activity",
+      "title": "Activity",
+      "section": "Activity",
+      "path": "/activity",
+      "content": "Activity\n\nLearn about how to be active when you have diabetes. Used with the permission of the American College of Sports Medicine\n\nGetting Started\n\nAerobic Activity\n\nStrength Training\n\nOther Types of Physical Activity",
+      "headings": []
+    },
+    {
+      "id": "activity-other-types-activity",
+      "title": "Other Types of Physical Activity",
+      "section": "Activity",
+      "path": "/activity/other-types-activity",
+      "content": "import otherTypesActivity01 from './other-types-activity01.jpg';\nimport otherTypesActivity02 from './other-types-activity02.png';\nimport otherTypesActivity03 from './other-types-activity03.png';\nimport otherTypesActivity04 from './other-types-activity04.png';\nimport otherTypesActivity05 from './other-types-activity05.png';\nimport SportsMedCopyright from '../SportsMedCopyright.js'\n\nOther Types of Physical Activity\n\nAerobic activity and strength training are at the heart of a program for those with type 2 diabetes. But you may enjoy and benefit from these other options.\n\nYoga, Pilates and Tai Chi\n\nAll help with balance, strength and relaxation and can lower your blood glucose\n\nTake more steps\n\nUse a smart phone or an activity tracker to measure your progress and stay motivated. Count your steps daily for the first week. Slowly build up to 7,000-9,000 steps/day.\n\nFlexibility\n\nStretch your muscles 2-3 days/week to the point of feeling tightness. Hold for 10-30 seconds (30- 60 seconds for older adults). For example, stretch your calves or the back of your thighs.\n\nBalance\n\nExercises may include standing on one foot, walking on a line, or using a balance board. Train in an uncluttered area and use a chair or wall for support if needed.\n\nRemember: Start where you are. Use what you have. Do what you can.",
+      "headings": [
+        "Yoga, Pilates and Tai Chi",
+        "Take more steps",
+        "Flexibility",
+        "Balance"
+      ]
+    },
+    {
+      "id": "activity-strength-training",
+      "title": "Strength Training",
+      "section": "Activity",
+      "path": "/activity/strength-training",
+      "content": "import strengthTraining01 from './strength-training01.jpg';\nimport strengthTraining02 from './strength-training02.png';\nimport strengthTraining03 from './strength-training03.png';\nimport strengthTraining04 from './strength-training04.png';\nimport strengthTraining05 from './strength-training05.png';\nimport SportsMedCopyright from '../SportsMedCopyright.js'\n\nStrength Training\n\nStrength training is important for people with diabetes because it builds muscle. Muscle tissue plays a big role in managing blood glucose, and you don’t have to be a body-builder! Plus, strength training can make daily activities like lifting laundry baskets or yardwork easier and safer.\n\nWhat?\n\nHand weights, resistance bands, weight machines, or your own body (for example, kitchen counter push-ups or chair squats)\n\nHow often?\n\n2-3 Days/week \\Rest day in between!\n\nHow hard?\n\nStart with light effort. Build up to medium or hard effort.\n\nHow much?\n\n10-15 repetitions to start (for each major muscle group) Build up to 8-10 reps of challenging effort.\n\nRemember**: If you need it, get help from a certified exercise professional. They can teach you the right way to do exercises and how to breathe properly.\n\nStrength Training Cautions\n\n- Slowly increase how much you lift and how often.\n- Avoid straining or holding your breath when lifting. This causes your blood pressure to go up.\n- If you have severe diabetic retinopathy, don’t lift heavy weights.",
+      "headings": [
+        "What?",
+        "How often?",
+        "How hard?",
+        "How much?",
+        "Strength Training Cautions"
+      ]
+    },
+    {
+      "id": "allposts",
+      "title": "All the posts",
+      "section": "Allposts",
+      "path": "/allposts",
+      "content": "import AllPosts from './AllPosts.js'\n\nAll the posts",
+      "headings": []
+    },
+    {
+      "id": "complete",
+      "title": "Congratulations!",
+      "section": "Complete",
+      "path": "/complete",
+      "content": "Congratulations!\n\nYou have completed the Virginia Mason Diabetes Education Application.\n\nKeep this site in mind as a reference in the future, and feel free to re-read it.\n\nIf you have questions that this application does not answer, please discuss them with your healthcare provider.",
+      "headings": []
+    },
+    {
+      "id": "health-care-doctor-visit-prep",
+      "title": "Preparing for your visit with your doctor",
+      "section": "Health Care",
+      "path": "/health-care/doctor-visit-prep",
+      "content": "Preparing for your visit with your doctor\n\nWhat your doctor will do\n\n- Have the most up-to-date information on hypertension treatment\n- Know how to use that information to make recommendations for your hypertension treatment\n- Explain why a treatment for your hypertension is recommended\n- Explain the reason for lab tests and what the results mean\n- Review any changes to your care plan to make sure you understand\n\nHow to get the most from your doctor visit\n\n- Bring your blood pressure log or your blood pressure measurement device to your visit.\n- Bring your record of all medicines and supplements you take (prescription as well as over the counter). Let the team know if you need any refills of your prescription medications.\n- Let the team know at the beginning of the visit about specific topics you need to talk about.\n- Let the team know about any changes to your health since the last visit.\n\nPossible topics for discussion with your doctor\n\n- Your blood tests results\n- Any very high or very low blood pressure levels and what time of day the blood pressures occured. This includes understanding symptoms and what to do about them\n- Your current medicines, when to take them, and how to adjust if needed.\n- Your excercise and meal plan and what kinds of food you eat\n- Anything that's getting in your way of your day-to-day hypertension management such as school, work or feelings; cost of medications or the ability to self-administer the medications.",
+      "headings": []
+    },
+    {
+      "id": "health-care",
+      "title": "Health Care",
+      "section": "Health Care",
+      "path": "/health-care",
+      "content": "Health Care\n\nRecommended routine care for health when you have hypertension\n\nPreventative Care\n\nDoctor Visit Prep\n\nSetting Goals\n\nReferences",
+      "headings": []
+    },
+    {
+      "id": "health-care-low-blood-sugar",
+      "title": "Low blood sugar - Hypoglycemia",
+      "section": "Health Care",
+      "path": "/health-care/low-blood-sugar",
+      "content": "import Hypoglycemia01 from './Hypoglycemia01.jpg';\nimport Hypoglycemia02 from './Hypoglycemia02.jpg';\n\nLow blood sugar - Hypoglycemia\n\n> - Know the signs of low blood sugar. You may feel nervous, sweaty, shaky, weak and have blurred vision.\n\n> - If you feel you have low blood sugar, immediately check your blood sugar.\n> - If your blood sugar is low (less than 70), eat or drink 15 grams of sugar.\n> - On quarter cup of apple juice, a hard candy or a glucose tablet all contain 15 grams of sugar.\n> - Recheck your blood sugar after 15 minutes. If your blood sugar is still  - If your blood sugar is low after 30 minutes, call 911.\n> - When your blood sugar is over 70mg/dL, eat a snack with carbohydrate and protein.",
+      "headings": []
+    },
+    {
+      "id": "health-care-preventative-care",
+      "title": "Recommended routine care for health",
+      "section": "Health Care",
+      "path": "/health-care/preventative-care",
+      "content": "Recommended routine care for health\n\nHypertension Provider Vists\n\n> - If your blood pressure is less than 130/80 for 1-2 years -> one hypertension care visit per year.\n> - If your blood pressure is between 130-140/80-90 -> every 6 months\n> - If your blood pressure is above 140/90 -> every month\n\nSchedule and keep your follow-up appointment with your health care team.\n\nAfter being discharged from the hospital, we recommend an appointment to\nassess your blood pressure within two weeks, sooner if necessary.\n\nSmoking cessation\n\n> - Persons with hypertension should not smoke or use tobacco in any form.\n> - Smoking contributes to the risk of a heart attack or stroke.\n> - Smoking affects the blood vessels of the body impacting the blood flow to the feet, eyes, heart and kidneys.\n> - Free help in quitting smoking at 1-800-QUIT-NOW and at smokefree.gov and cdc.gov/tips.\n\nCoping\n\n> - Many people may feel stressed or sad when diagnosed with hypertension. Change in one’s health and lifestyle habits are hard. It is important to remember that these feelings are normal and there are methods for coping with change.\n> - Reach out to your support network such as friends and family.\n> - Learn about hypertension through group educational classes.\n> - Stay positive and exercise every day. Engage in hobbies you enjoy.\n> - If you should feel very down and lose interest in previous enjoyed activities, withdraw from your support system, or spend the day sleeping, these may be signs of depression. Please reach out to your healthcare provider, family or friends for support.\n\nLipids\n\n> - Lipids are fats (Cholesterols, Triglycerides) that circulate in the blood that come from the food you eat. A high level of fats in the blood adds to the risk of a heart attack or stroke.\n> - Your healthcare provider may order a lipid blood test at least once a year.\n> - Your healthcare provider may prescribe a medication to help control the lipids in your blood.\n\nVaccinations\n\n> - It is recommended that you receive a flu (influenza) vaccine every year.\n> - It is also recommended that you receive a pneumonia (pneumococcal) vaccine.\n\n -->",
+      "headings": []
+    },
+    {
+      "id": "health-care-references",
+      "title": "References",
+      "section": "Health Care",
+      "path": "/health-care/references",
+      "content": "References\n\nTo come",
+      "headings": []
+    },
+    {
+      "id": "health-care-setting-goals",
+      "title": "A Strategy for Setting Goals to Improve your Blood Sugar Control",
+      "section": "Health Care",
+      "path": "/health-care/setting-goals",
+      "content": "A Strategy for Setting Goals to Improve your Blood Sugar Control\n\nLifestyle choices such as food preferences and exercise habits affect blood pressure control and, over time, the potential for the long-term complications of hypertension. Changing lifelong ways is very hard! The good news is small changes in everyday living can lead to big improvement in hypertension management.\n\nOne strategy to consider that many people have found helpful is setting SMART goals. Using the SMART goal framework helps people focus on specific small achievable changes.\n\n> The SMART acronym stands for:\n>\n> - S: Specific\n> - M: Measurable\n> - A: Achievable\n> - R: Realistic\n> - T: Timely\n\nAs an example, many people would like to exercise more. If a person has not exercised routinely for a while, walking is a good start. An example of setting SMART goals for daily walking may be:\n\n- Specific: I will walk around the block every day when I get home from work. On the weekends, I will walk after my morning coffee.\n- Measurable: I will set a reminder on my phone to ping me at the same time every day and I will check off completion of the walk on my calendar.\n- Achievable: Before I start walking every day, I will choose sturdy footwear and rain gear so that I am ready to walk whatever the weather.\n- Relevant: I would like to get back into shape so that I feel better and burn a few calories. My doctor told me that I need to lose some weight and improve my blood sugar numbers.\n- Timely: I really want to live my best life possible and be here for my family.\n\n> People who report the best success using SMART goals is to write your goals down and share with family or friends. Remember start small and celebrate your wins!",
+      "headings": []
+    },
+    {
+      "id": "health-care-what-to-do-if",
+      "title": "What to do if....",
+      "section": "Health Care",
+      "path": "/health-care/what-to-do-if",
+      "content": "What to do if....\n\nHigh blood sugar\n\n> - High blood sugar (hyperglycemia) occurs when there is too much sugar in the blood.\n> - When high blood sugar continues for a long period of time, lasting damage to the body can occur.\n> - Know the signs of high blood sugar. You may have an increased thirst, blurred vision, frequent urination, increased hunger and numbness or tingling of the feet.\n> - High blood sugar occurs when glucose lowering medications are skipped; eat too much food or the wrong food; change or lowered activity levels, and sickness.\n> - Check your blood sugar. If your blood sugar is greater than 300 persistently over 6 to 8 hours, call your diabetes provider’s office.\n> - If your blood sugar is over 400, strongly consider presenting to the Emergency Room or an Urgent Care facility.\n\nI get sick\n\n> - Blood sugar can be more difficult to control when you are sick.\n> - Colds, fever, flu, nausea, vomiting and diarrhea are all examples of common illnesses that can cause problems for people with diabetes.\n> - Loss of body fluids (dehydration) from fever, vomiting, diarrhea, infection, and the stress of a sickness can all cause blood glucose levels to increase.\n> - Because of this, it is very important to take your diabetes medicines and to eat some form of carbohydrate food when you are sick.\n> - Liquid or soft foods are often tolerated, and they help to replace fluids.\n\nHome Care Instructions\n\nThese guidelines are intended for managing a short-term (48 hours or\nless) sickness:\n\n> - Take your usual dose of insulin or oral diabetes medicine, except for METFORMIN\n> - Continue to take your insulin even if you are unable to eat solid foods or are vomiting. Your insulin dose may need to be adjusted.\n> - Continue to take your insulin even if you are unable to eat solid foods or are vomiting. Your insulin dose may need to be adjusted.\n> - You will need to test your blood glucose more often, generally every 2-4 hours.\n> - Eat some form of food that contains carbohydrates. The carbohydrates can be in solid or liquid form. You should eat 45-50 grams of carbohydrates every 3-4 hours.\n> - Replace fluids if you have a fever, vomit, or have diarrhea.\n> - Call your diabetes provider for self-management support as needed.\n> - Be careful with over-the-counter medicines. They may contain sugar or types of sugars that can increase your blood glucose levels. Read the labels.\n\nSeek medical care if:\n\n> - You are unable to drink fluids, even small amounts\n> - You have nausea and vomiting for more than six hours.\n> - Your blood glucose level is more than 300 mg/dL.\n> - There is a change in mental status.\n> - You have a fever above 101 F.\n\nI need to have anesthesia\n\n> - If you take medication for diabetes and need to undergo a medical procedure, your diabetes provider may need to adjust your regular medication schedule until the procedure is finished.\n> - For safety, discuss your diabetes medication regimen with the provider who will be performing the procedure, your anesthesia and diabetes care provider.\n> - Remember to bring your glucometer or blood glucose log to all provider appointments.",
+      "headings": []
+    },
+    {
+      "id": "know-your-numbers-hemoglobin-a1c",
+      "title": "Hemoglobin A1C",
+      "section": "Know Your Numbers",
+      "path": "/know-your-numbers/hemoglobin-a1c",
+      "content": "import Hemoglobina1c01 from './Hemoglobina1c01.png';\n\nHemoglobin A1C\n\nWhile the glucometer tests blood sugar at a specific moment in time, the\nHemoglobin A1C reports the average blood glucose the previous two to\nthree months.\n\nThe Hemoglobin A1 blood test is drawn and processed at a laboratory.\n\nThe Hemoglobin A1C test measures the percentage of the hemoglobin in red\nblood cells that are coated with sugar.\n\nLike a sugary drink spilled on the floor that becomes sticky, as glucose\nfloats in the blood for a long period of time, glucose sticks to our red\nblood cells. Hemoglobin A1C measures how many of our red-blood cells\nhave glucose stuck to them.\n\nThe following chart is a comparison of A1C to estimated average glucose\nreadings you would get from a glucometer.\n\nThe A1C test is a common blood test to monitor how well you are managing\nyour diabetes. The higher your A1C is, the higher the risk of\ncomplications from diabetes.",
+      "headings": []
+    },
+    {
+      "id": "know-your-numbers",
+      "title": "Know your numbers-track your blood pressure",
+      "section": "Know Your Numbers",
+      "path": "/know-your-numbers",
+      "content": "Know your numbers-track your blood pressure\n\nBecause hypertension affects all aspects of out body, it is important for persons with hypertension to routinely check their blood pressre.\n\nUsing a Blood Pressure Cuff\n\nTracking Blood Pressure",
+      "headings": []
+    },
+    {
+      "id": "know-your-numbers-tracking-blood-pressure",
+      "title": "Tracking Blood Pressure",
+      "section": "Know Your Numbers",
+      "path": "/know-your-numbers/tracking-blood-pressure",
+      "content": "Tracking Blood Pressure\n\nIt is very important that you record your blood pressure measurements. Many\npersons use a blood pressure log such as posted on the American Heart\nAssociation website.\n\nPlease bring your blood pressure log or your blood pressure with you when you\nvisit your healthcare provider to discuss hypertension.",
+      "headings": []
+    },
+    {
+      "id": "know-your-numbers-using-a-sphygmomanometer",
+      "title": "Testing blood pressure using a blood pressure cuff",
+      "section": "Know Your Numbers",
+      "path": "/know-your-numbers/using-a-sphygmomanometer",
+      "content": "Testing blood pressure using a blood pressure cuff\n\nThe most common method of testing blood pressure is using a sphygmomanometer, otherwise known as a blood pressure cuff.\n\nA blood pressure cuff usually comes in two types, a manual cuff which is most common at the doctors office, and a digital cuff, which is more common for home measurement.\n\nThe cuff is normally placed around the upper arm, at similar hight as the heart, while seated with arm supported. The cuff is then inflated until blood flow cannot be measured through the cuff. The first point at where flow can be detected is the systolic blood pressure. The cuff is then deflated until flow can again no longer be detected. This point is the diastolic blood pressure.\n\nYour health care provider will often want you to bring your blood pressure cuff into the office in order to ensure it is properly calibrated.\n\nThe AHA has a great inforgraphic with resources regarding monitoring your blood pressure. These can be found here",
+      "headings": []
+    },
+    {
+      "id": "lifestyle-and-blood-pressure-alcohol-and-hypertension",
+      "title": "Alcohol",
+      "section": "Lifestyle And Blood Pressure",
+      "path": "/lifestyle-and-blood-pressure/alcohol-and-hypertension",
+      "content": "Alcohol\n\nAlcohol can affect blood glucose in different ways. It is recommended to ask your healthcare team how alcohol will affect your overall health and if it is will interact with medications you are taking.\n\nDrinking alcohol can delay the absorption of food, so remember if you drink, to consume food with your beverage.\n\nAlcoholic beverages contain varying amounts of carbohydrate.\n\n- For example, sweet wine and microbrew beers contain more carbohydrate than dry wine or light beer.\n\n> Alcohol Note: for people on insulin, consuming too much alcohol can cause a dangerous condition of lowering the blood sugar level.",
+      "headings": []
+    },
+    {
+      "id": "lifestyle-and-blood-pressure-dash-diet",
+      "title": "DASH Diet",
+      "section": "Lifestyle And Blood Pressure",
+      "path": "/lifestyle-and-blood-pressure/dash-diet",
+      "content": "DASH Diet\n\nThe Dietary Approaches to Stop Hypertension diet, or DASH diet for short is the most well studied dietary methods to reduce blood pressure. The DASH diet was first studied in the late 1990s. It found that in people who had hypertension who followed the DASH diet could reduce their systolic blood pressures by 11 mm Hg. The DASH diet is no a rigid recommendation of meals, but is instead a general plan to set you in the right direction.\n\nThe NIH has a website built around the DASH diet if you are looking for additional information: https://healthyeating.nhlbi.nih.gov\n\n>DASH diet guidelines:\n>- 6-8 servings per day of whole grains\n>- 4-5 servings per day of vegetables\n>- 4-5 servings per day of fruits\n>- 2-3 servings per day of fat-free or low-fat dairy\n>- 4-5 servings per week of nuts, seeds, legumes\n>- Less than 6 servings per day of lean meat, poultry, fish\n>- Less than 5 servings per week of sweets\n>- 2-3 servings per day of fats and oils.\n\nBelow is an info-graphic regarding the general recommendations of the DASH diet.",
+      "headings": []
+    },
+    {
+      "id": "lifestyle-and-blood-pressure-exercise-and-hypertension",
+      "title": "Exercise and Hypertension",
+      "section": "Lifestyle And Blood Pressure",
+      "path": "/lifestyle-and-blood-pressure/exercise-and-hypertension",
+      "content": "Exercise and Hypertension\n\nAerobic Exercise\n\nAerobic exercise is physical activity that helps your heart and lungs work better. It can also help you have more energy and feel better. Examples of aerobic exercise include jogging, walking, swimming, and cycling.\n\nDoing 90–150 minutes a week or aerobic exercise can reduce systolic blood pressure by as much as 8 mm Hg.\n\nGet started with aerobic exercises right now by searching on YouTube\n\nDynamic Resistance Exercise\n\nDynamic resistance exercise is a type of strength training that involves using the muscles to move against a resistance, which can be a weight, a band, or body weight. Examples of dynamic resistance exercises include squats, lunges, and push-ups. These exercises can help build strength, power, and endurance.\n\nDoing 90–150 minutes a week of dynamic resistance exercises of at least 6 exercises, 3 sets per exercise and 10 repetitions per set can reduce blood pressure by as much as 4 mm Hg.\n\nGet started with dynamic resistance exercises right now by searching on YouTube\n\nIsometric Resistance Exercise\n\nIsometric resistance exercise is a type of exercise that helps build strength and muscle. It involves holding and squeezing a muscle tightly in one spot, without moving, for a few seconds. This type of exercise is a great way to get strong and build muscles without using heavy weights. It can be done anywhere and anytime, and can be fun and easy for kids of any age.\n\nDoing 4 x 2 min isometric exercise with 1 minute rest between exercises 3 times a week can reduce blood pressure by as much as 5 mm Hg.\n\nGet started with isometric resistance exercises right now by searching on YouTube",
+      "headings": []
+    },
+    {
+      "id": "lifestyle-and-blood-pressure",
+      "title": "Lifestyle and Blood Pressure",
+      "section": "Lifestyle And Blood Pressure",
+      "path": "/lifestyle-and-blood-pressure",
+      "content": "Lifestyle and Blood Pressure\n\nLooking into how you live your life affects your blood pressure\n\nOverview\n\nDASH Diet\n\nSalt, Sodium, Potassium and Hypertension\n\nExercise as Treatment of Hypertension\n\nAlcohol reduction as treatment of hypertension",
+      "headings": []
+    },
+    {
+      "id": "lifestyle-and-blood-pressure-sodium-potassium",
+      "title": "Salt, Sodium, Potassium and Hypertension",
+      "section": "Lifestyle And Blood Pressure",
+      "path": "/lifestyle-and-blood-pressure/sodium-potassium",
+      "content": "Salt, Sodium, Potassium and Hypertension\n\nMinerals are essential for our bodies to stay healthy. We get minerals from eating plants and animals and drinking water. The five major minerals in our bodies are calcium, phosphorus, potassium, sodium, and magnesium. Other minerals, like iron, chlorine, cobalt, copper, zinc, manganese, molybdenum, iodine, and selenium, also help us stay healthy. Plants get minerals from the soil and animals get minerals by eating plants and other animals.\n\nSodium\n\nMost commonly thought of as common table salt, it also comes in process foods. Any food that has a food label likely has some added salt. Added salt is where the majority of salt in peoples diets come from. You can find it listed in the label below. There is 160mg of sodium in the label below.\n\nSodium is a vital mineral, helping electric signals get around the body. Too much salt though and it just sits in our blood, drawing extra fluid into our blood as well to regulate the overall concentration of sodium, resulting in a higher blood pressure. The average daily amount of sodium in an americans diet is 3400 mg.  While we need a little sodium in our diets, its been shown that limiting daily sodium intake to between 1000mg - 1500mg can help reduce the systolic blood pressure up to 6 mm Hg.\n\nThe Harvard School of Public Health has further reading regarding salt and sodium\n\nPotassium\n\nPotassium is more obscure when compared to sodium. It is not a part fo something we flavor our foods with like salt, but is instead something that is within our foods. The average american gets between 2300mg - 3000mg of potassium a day. Increasing potassium intake by increasing whole foods that are high in potassium, to 3500 - 5000mg a day, it can reduce systolic blood pressure up to 4 mm Hg.\n\n  \n    \n      Foods that are high in potassium\n    \n    \n      Dried fruits (raisins, apricots) \n      Beans, lentils \n      Potatoes \n      Winter squash (acorn, butternut) \n      Spinach, broccoli \n      Beet greens \n      Avocado \n      Bananas \n      Cantaloupe \n      Oranges, orange juice \n      Coconut water \n      Tomatoes \n      Dairy and plant milks (soy, almond) \n      Yogurt \n      Cashews, almonds \n      Chicken \n      Salmon    \n  \n\n  The Harvard School of Public Health also has further reading regarding potassium",
+      "headings": []
+    },
+    {
+      "id": "medications-acei",
+      "title": "Angiotensin-converting-enzyme inhibitors (ACE inhibitors or ACEi)",
+      "section": "Medications",
+      "path": "/medications/acei",
+      "content": "Angiotensin-converting-enzyme inhibitors (ACE inhibitors or ACEi)\n\nDoes effect electrolytes.\n\nSeveral different medications in this class, including\n\n> - Lisinopril\n> - Benazepril\n> - Ramipril\n> - Enalapril\n\nWorks by blocking an enzyme (a tiny worker inside our bodies) that helps convert a chemical called angiotensin I into angiotensin II. This reduces the amount of angiotensin II, which is a substance that causes blood vessels to constrict, leading to higher blood pressure. ACE inhibitors also increase the level of a molecule called bradykinin, which helps to relax blood vessels, leading to lower blood pressure.\n\nPros\n\n> - Inexpensive\n> - Convenient dosing\n\nCons\n\n> - Can cause cough\n> - Can lead to a high potassium level\n> - Sometimes can lead to apperance of kidney impairment\n> - Rare cases of angioedema (Painless swelling under the skin,)",
+      "headings": []
+    },
+    {
+      "id": "medications-antimineralocorticoid",
+      "title": "Antimineralocorticoid",
+      "section": "Medications",
+      "path": "/medications/antimineralocorticoid",
+      "content": "Antimineralocorticoid\n\nDoes effect electrolytes.\n\nMultiple types\n\n> - Spironolactone\n> - Eplerenone\n\nWorks by decreasing the effecst of aldosterone (a hormone produced by the adrenal glands that helps the body balance sodium and potassium levels, which helps to maintain blood pressure), lowering blood pressure.\n\nPros\n\n> - Very effective if hypertention is due to elevated levels of aldosterone\n\nCons\n\n> - Usually not very effective as effective as other agents due to lower percentage of people having hypertention due to elevated levels of aldosterone\n> - Can lead to a high potassium level\n> - Spironolactone specifically can have feminizing effects (increase breast tissue, etc)",
+      "headings": []
+    },
+    {
+      "id": "medications-arb",
+      "title": "Angiotensin II receptor blocker (ARB)",
+      "section": "Medications",
+      "path": "/medications/arb",
+      "content": "Angiotensin II receptor blocker (ARB)\n\nDoes effect electrolytes.\n\nSeveral different medications in this class\n\n> - Losartan\n> - Olmesartan\n> - Valsartan\n> - Telmisartan\n> - Irbesartan\n\nWorks by blocking the activation of angiotensin II AT1 receptors. AT1 receptors are found in smooth muscle cells of vessels, cortical cells of the adrenal gland, and adrenergic nerve synapses. Blockage of AT1 receptors directly causes vasodilation (Vasodilation is when the blood vessels in your body get wider. This helps your blood flow more easily, so your body can get the oxygen and other important things it needs to stay healthy.), reduces secretion of vasopressin (Vasopressin is a hormone that helps your body keep the right amount of water. It helps the body stay hydrated by controlling how much water is in your bloodstream. It also helps your body regulate the amount of salt and other materials.), and reduces production and secretion of aldosterone (Aldosterone is a hormone that helps regulate the balance of water and salt in your body. It is produced in the adrenal glands, which are two small glands that sit on top of each of your kidneys. Aldosterone helps your body know when it needs to hold on to water or let it go.), among other actions. The combined effect reduces blood pressure.\n\nPros\n\n> - Inexpensive\n> - Convenient dosing\n> - Similar efficacy to ACEi with less side effects\n\nCons\n\n> - Some people get stomach upset\n> - Can lead to a high potassium level\n> - Sometimes can lead to apperance of kidney impairment",
+      "headings": []
+    },
+    {
+      "id": "medications-bblockers",
+      "title": "Beta blocker",
+      "section": "Medications",
+      "path": "/medications/bblockers",
+      "content": "Beta blocker\n\nDoes not effect electrolytes.\n\nMultiple types\n\n> - Metoprolol\n> - Carvedilol\n> - Bisoprolol\n> - Atenolol\n\nWorks by reducing the activity of the heart, decreasing the amount of a hormone called renin released by the kidneys and affecting the central nervous system to reduce sympathetic activity.\n\nPros\n\n> - Good at reducing heart rate in people who have atrial fibrillation\n> - A standard medication for people who have had heart attacks or heart pain\n> - Can sometimes helps to reduce anxiety\n\nCons\n\n> - Not very good at reducing blood pressure",
+      "headings": []
+    },
+    {
+      "id": "medications-ccb",
+      "title": "Calcium Channel Blockers",
+      "section": "Medications",
+      "path": "/medications/ccb",
+      "content": "Calcium Channel Blockers\n\nDoes not effect the electrolytes.\n\nSeveral different medications in this class, but the main medication used in the United States with regards to blood pressure is Amlodipine (Norvasc)\n\nWorks by decreasing the contraction of arteries and increasing the diameter of the arteries thereby reducing systemic vascular resistance and arterial pressure\n\nPros\n\n> - Does not act on kidney so do not need follow up blood work after starting\n> - Usually mild side effects if any\n\nCons\n\n> - Small percentage of users have lower extremity swelling\n> - Some constipation\n> - Sometimes can precipitate gingival hyperplasia, so should ensure regular dental care",
+      "headings": []
+    },
+    {
+      "id": "medications",
+      "title": "Medications",
+      "section": "Medications",
+      "path": "/medications",
+      "content": "Medications\n\nIn this section we will discuss medications which you can use to control hypertension.\n\nMedication Overview\n\nCalcium Channel Blocker\n\nACEi\n\nARB\n\nThiazide Diuretic\n\nLoop Diuretic\n\nAntimineralocorticoid\n\nBeta blockers\n\nFast Facts",
+      "headings": []
+    },
+    {
+      "id": "medications-loopdiuretic",
+      "title": "Loop Diuretic",
+      "section": "Medications",
+      "path": "/medications/loopdiuretic",
+      "content": "Loop Diuretic\n\nDoes effect electrolytes.\n\nSeveral different medications in this class\n\n> - Furosemide\n> - Bumetanide\n> - Torsemide\n\nWorks by acting on the kidneys to increase urine production, leading to decreased blood volume, vasodilation, and decreased blood pressure.\n\nPros\n\n> - Only modeslty reduced blood pressure, usually only used for blood pressure control in the setting of kidney dysfunction\n> - Can assist with reducing edema as well as blood pressure\n\nCons\n\n> - Can lead to low potassium and/or sodium level\n> - Can lead to signifant dehydration leading to kidney damage",
+      "headings": []
+    },
+    {
+      "id": "medications-medication-overview",
+      "title": "Medication Overview",
+      "section": "Medications",
+      "path": "/medications/medication-overview",
+      "content": "Medication Overview\n\nCongratulations for making it this far in your hypertension education.\n\nThere are a lot of medications for hypertension, and it can be overwhelming.\n\nYou don’t have to know how all medications work, and even the list below does not contain all the types of medication used.\n\nUse this section to learn more about the most common medications, some that you may already be taking or perahps ones that you are interested in taking.",
+      "headings": []
+    },
+    {
+      "id": "medications-thiazide",
+      "title": "Thiazide",
+      "section": "Medications",
+      "path": "/medications/thiazide",
+      "content": "Thiazide\n\nDoes effect electrolytes.\n\nSeveral different medications in this class\n\n> - Chlorthalidone\n> - Hydrochlorothiazide\n> - Indapamide\n\nWorks by blocking the reabsorption of sodium and chloride ions in the kidneys, resulting in increased calcium reabsorption. This helps to lower blood pressure and keeps calcium levels in the body balanced.\n\nPros\n\n> - Inexpensive\n> - Can assist with reducing edema as well as blood pressure\n> - Sometimes can decrease likelyhood of kidney stones\n\nCons\n\n> - Can lead to low potassium and/or sodium level\n> - Can precipitate gout attackss",
+      "headings": []
+    },
+    {
+      "id": "self-administer-insulin",
+      "title": "How to self-administer insulin",
+      "section": "Self Administer Insulin",
+      "path": "/self-administer-insulin",
+      "content": "How to self-administer insulin\n\nIn this section you will learn about injecting insulin.\n\nVial & Syringe\n\nInsulin Pen\n\nInjections Sites\n\nSyringe Disposal",
+      "headings": []
+    },
+    {
+      "id": "self-administer-insulin-injection-sites",
+      "title": "Common Injection Sites for Insulin",
+      "section": "Self Administer Insulin",
+      "path": "/self-administer-insulin/injection-sites",
+      "content": "import InjectionSites01 from './InjectionSites01.png';\nimport InjectionSites02 from './InjectionSites02.png';\n\nCommon Injection Sites for Insulin\n\nA person needs to inject insulin into the layer of fat directly under\nthe skin, known as subcutaneous tissue.\n\nThe abdomen is a common site for insulin injections that many people\nwith diabetes choose. The abdomen is easy to access and often less\npainful than other sites due to protection by fat, a greater surface\narea and less muscle. The site should be between two inches between the\nwaist and the hip bones and two inches away from the belly button. Do\nnot inject near any scar tissue.\n\nDaily, the insulin injection sites should be rotated so that no one site\nis injected frequently. A person’s skin may become thickened over time,\naffecting the body’s ability to absorb the insulin.\n\nA picture of options for daily rotation of insulin injection sites of\nthe abdomen is depicted below. Additional areas of the body where\ninsulin may be injected include the thighs, buttocks and arms as shown\nin the illustration. Avoid injecting into the same site over and over.\nSpeak to your health provider for any questions related to insulin\ninjections.",
+      "headings": []
+    },
+    {
+      "id": "self-administer-insulin-insulin-pen",
+      "title": "How to Use an Insulin Pen",
+      "section": "Self Administer Insulin",
+      "path": "/self-administer-insulin/insulin-pen",
+      "content": "import InsulinPen01 from './InsulinPen01.png';\nimport InsulinPen02 from './InsulinPen02.png';\nimport InsulinPen03 from './InsulinPen03.png';\nimport InsulinPen04 from './InsulinPen04.png';\nimport InsulinPen05 from './InsulinPen05.png';\nimport InsulinPen06 from './InsulinPen06.png';\nimport InsulinPen07 from './InsulinPen07.png';\nimport InsulinPen08 from './InsulinPen08.png';\nimport InsulinPen09 from './InsulinPen09.png';\nimport InsulinPen10 from './InsulinPen10.png';\nimport InsulinPen09b from './InsulinPen09b.png';\n\nHow to Use an Insulin Pen\n\nInsulin pens got their name because they are about the size and shape of\nwriting pens. Insulin pens contain cartridges pre-filled with insulin.\nThe pen is dialed for your recommended insulin dose.\n\nGather the supplies you will need:\n\n> - ✓ Insulin pen\n> - ✓ Needle\n> - ✓ Alcohol swab\n\nWash your hands.\n\nRemove paper tab and needle covers.\n\nGet the needle ready.\n\nPull the paper tab off of pen needle.\n\nRemove inner needle cover to expose the needle. Throw inner needle cover\naway.\n\nGet the pen ready.\n\nUsing an alcohol swab, clean the top of the insulin pen.\n\nScrew needle onto insulin end of the pen.\n\nRemove outer needle cover.\n\nRemove the needle cover.\n\nPrime the pen and clear air from the needle. Turn the dose selector knob\nat the end of the pen to 2 units — watch dose markings change with\nturning of the knob.\n\nHold the pen with the needle pointing upward.\n\nPress dose knob up completely while watching for insulin drop or stream\nto appear.\n\nThe dial should be back at zero after completing the priming.\n\nTurn dose knob to dial in your insulin dose. The pen will allow you to\nreceive only the amount that you have set.\n\nDouble-check the dose window to make sure the correct dose is selected.\n\nClean a small area of skin with an alcohol swab.\n\nLet the alcohol dry completely before you inject.\n\nAn injection practice pillow is used for illustration in the pictures\nabove.\n\nInject insulin.\n\nCurl fingers around the upper end of the pen to hold secure. Poise\nthumb, above the dose knob.\n\nGently pinch up skin with your free hand.\n\nQuickly insert the needle at a 90° angle. Release the pinch.\n\nUse our thumb to press down on the dose knob until it stops-the dose\nwindow will be back at zero. Leave the needle in place for 5–10 seconds\nto help prevent insulin from leaking out of the injection site.\n\nPull the needle from your skin and press your finger or an alcohol swab\nover the spot you gave your injection.\n\nUtilize the “scoop” method of removing the insulin needle from the pen\ncartridge.\n\nPlace the pen on a hard surface next to the external pen needle cover.\n\nGuide the used pen needle into the external pen needle cover.\n\nTwist the needle cover onto the pen twisting until the needle is removed\nfrom the cartridge.\n\nRemove needle from cartridge.\n\nDispose your used syringe needle.",
+      "headings": []
+    },
+    {
+      "id": "self-administer-insulin-syringe-disposal",
+      "title": "How to Properly Dispose Used Syringe Needles",
+      "section": "Self Administer Insulin",
+      "path": "/self-administer-insulin/syringe-disposal",
+      "content": "import syringeDisposal from './SyringeDisposal.jpg';\n\nHow to Properly Dispose Used Syringe Needles\n\nDo not attempt to recap a used syringe needle.\n\nDispose of the used syringe into a hard plastic container with a\nscrew-on lid or lid that seals tightly.\n\nDispose of the filled container in a secure sharps disposal box.\n\nFor more information, visit these websites:\n\n> - King County Public Health\n> - Center for Disease Control\n> - SafeNeedleDisposal.org",
+      "headings": []
+    },
+    {
+      "id": "self-administer-insulin-vial-and-syringe",
+      "title": "Drawing and Injecting Insulin Using a Vial and Syringe",
+      "section": "Self Administer Insulin",
+      "path": "/self-administer-insulin/vial-and-syringe",
+      "content": "import VialSyringe01 from './VialSyringe01.png';\nimport VialSyringe02 from './VialSyringe02.png';\nimport VialSyringe03 from './VialSyringe03.png';\nimport VialSyringe04 from './VialSyringe04.png';\nimport VialSyringe05 from './VialSyringe05.png';\nimport VialSyringe06 from './VialSyringe06.png';\nimport VialSyringe07 from './VialSyringe07.png';\nimport VialSyringe08 from './VialSyringe08.png';\nimport VialSyringe09 from './VialSyringe09.png';\nimport VialSyringe10 from './VialSyringe10.png';\n\nDrawing and Injecting Insulin Using a Vial and Syringe\n\nGather the supplies you will need:\n\n> - ✓ Alcohol swabs\n> - ✓ Insulin syringe\n> - ✓ Bottle of insulin\n\nWash your hands.\n\nIf you are taking cloudy insulin such as NPH, or premixed insulin, roll\nthe bottle between the palms of your hands until it is uniformly cloudy.\n\nNever shake a bottle of insulin.\n\nPrepare the insulin vial: Wipe the top of the insulin bottle with an\nalcohol swap.\n\nRemove the needle cap and pull the plunger down to allow air to enter\nthe syringe.\n\nThe air in the syringe should be equal to your dose of insulin.\n\nPush the needle through the center of the rubber top of the insulin\nbottle.\n\nInject air into the insulin bottle by pushing the plunger down until all\nof the air is in the vial.\n\nLeave the needle in the insulin bottle. This makes it easier for you to\ndraw the insulin out of the bottle.\n\nTurn the insulin bottle and syringe upside down.\n\nPull the plunger back until the tip of the plunger is at the line\nindicating the number of insulin units you need.\n\nLook for air bubbles in your syringe.\n\nAir bubbles in the syringe mean that you will get less insulin.\n\nIf you have air bubbles stuck at the walls of the syringe, you can\ngently tap the side of the syringe to let the air bubble float to the\ntop and push back into the insulin vial.\n\nCheck your syringe to make sure you have your insulin dose and no air\nbubbles.\n\nAsk your nurse to show you other ways to get rid of air bubble.\n\nIf needle bends while drawing up the insulin, do not straighten it.\nProperly dispose of the syringe and start again.\n\nPull the needle out of the vial.\n\nClean a small area of skin with an alcohol swab. Let the alcohol dry\ncompletely before you inject. An injection practice pillow is used for\nillustration in the picture shown above.\n\nPick up the syringe and hold it like a pencil.\n\nDo not let the needle touch anything.\n\nPinch up your skin.\n\nPush the needle through the skin.\n\nPush the insulin in with the plunger.\n\nWait 3–5 seconds before pulling out the needle to make sure no insulin\nleaks out of your skin.\n\nPull the needle out of your skin.\n\nPress your finger or an alcohol swab over the spot you gave your\ninjection.\n\nDo not rub the injection site.\n\nDispose your used syringe needle.",
+      "headings": []
+    },
+    {
+      "id": "what-is-hypertension-diagnosing-hypertension",
+      "title": "Diagnosing Hypertension",
+      "section": "What Is Hypertension",
+      "path": "/what-is-hypertension/diagnosing-hypertension",
+      "content": "import diagnosingHypertension01 from './diagnosing-hypertension01.png'\nimport MultiChoiceQuestion from '../../MultiChoiceQuestion'\n\nDiagnosing Hypertension\n\nThere are often no signs or symptoms when you have hypertention. People may\nhave hypertension for years and not know it.\n\nPersons are generally diagnosed with hypertension through blood pressure screening at a well exam or when seeking care for unrelated reasons.\n\nBlood pressures is generally denoted as (systolic blood pressure)/(diastolic blood pressure).\n\nAn ideal blood pressure is considered to be 120/80",
+      "headings": []
+    },
+    {
+      "id": "what-is-hypertension-goals-of-hypertension-care",
+      "title": "Goals of hypertension care",
+      "section": "What Is Hypertension",
+      "path": "/what-is-hypertension/goals-of-hypertension-care",
+      "content": "Goals of hypertension care\n\nThe goal of care in treatment of hypertension is to achieve and\nmaintain an ideal blood pressure, healthy fat levels of the blood\n(lipids / cholesterol), and blood sugar control to prevent or delay problems from\nhypertension.\n\nSome persons can manage their blood pressure by eating well and\nexercising regularly. Losing excess weight and taking care of yourself\nby following a self-management plan will help a person achieve blood\npressure control.\n\n> The goal for the blood pressure is to be at or below 120 / 80\n\nFor most patients, the blood pressure goal is at or under 120/80. Once under control you should have at least yearly blood pressure checks.\n\nIf your blood pressure is lower than 120/80 naturally this is usually a healthy sign.\n\nIf you take medication and have a blood pressure under 120/80 and are having symptoms of low blood pressure, most commonly lightheadedness or passing out, you should talk to your doctor.\n\n> Depending on your age and other medical conditions, your provider may set an alternative blood pressure goal.\n\nSome patients need medication to manage their blood pressure.\n\nYour provider may prescribe oral medications to keep\nyour blood presure at the target levels.\n\nGoals for lipid management will be defined by your provider based on\nyour overall health, age and goals of care.",
+      "headings": []
+    },
+    {
+      "id": "what-is-hypertension-hypertension",
+      "title": "Understanding Hypertension",
+      "section": "What Is Hypertension",
+      "path": "/what-is-hypertension/hypertension",
+      "content": "Understanding Hypertension\n\nHypertension is a general term for when either your low (diastolic) number, high (systolic) number, or both recorded numbers in your blood pressure measurement are above what is accepted as the normal, healthy range.\n\nAs stated in the previous section, blood pressure results from both the hearts rate and amount of blood that is being pumped with each beat, as well as the overall size of the piping that the blood needs to flow through.\n\nThere are two types of hypertension, primary and secondary\n- The predominant type of hypertension is primary hypertension, meaning there is no specific identifiable cause of your elevated blood pressure.\n\n  - This educational application will focus predominantly on primary hypertension, also known as essential hypertension, and will simply be referred to from now on as hypertention\n\nIt is important to note that blood pressure is vital to survival and has various ways in which it is regulated on a second by second basis. Blood pressure varies quite a bit throughout the day, and our body is built for these fluctuations.\n- When you are are exercising you need a high blood pressure to ensure rapid delivery of fuel to your muscles.\n  - As such your heart will beat faster, and your blood vessels will shrink in size, reducing the over size of your bodies piping, thereby increasing blood pressure\n\n- When you are stressed, your body assumes an automatic \"fight or flight\" response. As such your body will raise its blood pressure in a similar manner as with exercise, in order to ensure you have adequate nutrient supply in case you need to fight, or flee.\n\nIf you are diagnosed with hypertension, this is a reflection of you having a high blood pressure even when you are in your most rested state.",
+      "headings": []
+    },
+    {
+      "id": "what-is-hypertension",
+      "title": "What is hypertension",
+      "section": "What Is Hypertension",
+      "path": "/what-is-hypertension",
+      "content": "What is hypertension\n\nIn this section you will learn the hypertension (HTN) basics, regarding what hypertension is and how it is diagnosed.\n\nIntroduction\n\nUnderstanding Blood Pressure\n\nHypertension\n\nDiagnosing Hypertension\n\nComplications of Uncontrolled Hypertension\n\nGoals of Hypertension Care",
+      "headings": []
+    },
+    {
+      "id": "what-is-hypertension-introduction",
+      "title": "Introduction",
+      "section": "What Is Hypertension",
+      "path": "/what-is-hypertension/introduction",
+      "content": "Introduction\n\nHypertension, also known as high blood pressure, is a condition\nwhere the blood pressure in your arteries is elevated.\n\nHypertension is a serious condition that requires routine monitoring.\n\nMany people in the United States have hypertension and do not know it.\n\nThe purpose of this program is to provide people with information for\nsuccess in hypertension self-management and to prevent or delay the\nlong-term effects of hypertension that may occur.\n\n> This program is not a substitute for a provider consultation or visit\n> with a diabetes educator.",
+      "headings": []
+    },
+    {
+      "id": "what-is-hypertension-negative-effects-of-hypertension",
+      "title": "Complications of Uncontrolled Hypertension",
+      "section": "What Is Hypertension",
+      "path": "/what-is-hypertension/negative-effects-of-hypertension",
+      "content": "Complications of Uncontrolled Hypertension\n\n> - Hypertension can damage the small blood vessels in the kidney.\n> - Over time the damaged kidneys are unable to filter the blood of excess fluid and waste from the body.\n> - Chronic kidney disease if left untreated can get worse over time and progress to kidney failure.\n> - When the kidneys stop working, dialysis or a kidney transplant may be necessary for life.\n> - Chronic kidney disease can contribute to the development of heart disease or stroke.\n> - Not all patients with chronic kidney disease develop kidney failure.\n> - Blood pressure and blood sugar control can help prevent the development of chronic kidney disease.\n\n> - People with hypertension are more likely to develop a stroke or heart disease.\n> - Hypertension can cause increased deposits of fats or blood clots in the blood vessel walls. Blood clots or deposits can reduce blood flow or completely cut off blood flow to the brain or heart.\n> - Brain and heart function depend on receiving oxygen flow from the blood.\n> - By following a heart healthy diet, avoiding all tobacco, exercising and taking all your medications as prescribed, you may prevent stroke or heart attack.\n> - Call 911 for any symptoms of stroke or heart attack.\n\n> - High blood pressure can damage the blood vessels in the eye leading to a condition called hypertensive retinopathy.\n> - Early symptoms include blurred vision and headaches.\n> - Over time, blindness can occur.\n - This is why you should get an eye exam every one to two years. -->\n\nThis video shows how high blood pressure damages the walls of your arteries over time and leads to life-threatening health problems. Medical Animation Copyright © 2022 Nucleus Medical Media, All rights reserved. external link",
+      "headings": []
+    },
+    {
+      "id": "what-is-hypertension-understanding-blood-pressure",
+      "title": "Understanding Blood Pressure",
+      "section": "What Is Hypertension",
+      "path": "/what-is-hypertension/understanding-blood-pressure",
+      "content": "Understanding Blood Pressure\n\nTo understand hypertension, one first needs to understand blood pressure.\n\nYour body has a series of pipes within it to move blood around, these are called blood vessels.\n\nBlood pressure is a measurement of the pressure that our blood is producing against the walls of our blood vessels and heart.\n\nBlood pressure is generated by two main factors\n\n1. Your heart beating, taking into acount both how fast it beats and how much blood it pumps with each beat.\n\n2. The overall size of the vessels that blood is flowing through. The smaller the overall size as a whole, the higher the blood pressure. The walls of our blood vessles are a type of muscle. Just as you can tense your arm, your body can tense your blood vessles, reducing their overall size.\n\nWhen blood pressure is measured there are two number that are recorded, a high number and a low number.\n\n When a heart squeezes the blood out of it and into our blood vessels, that is what the high number of your blood pressure records.\n - This is known as the systolic blood pressure. You can think of is as a measure of the work your heart needs to do to keep you alive.\n\nAfter your heart beats, it relaxes and sucks in new blood, getting ready to pump again. Right before your heart beats, this is what the low number of your blood pressure records.\n- This is known as the diastolic blood pressure. You can think of it as a measure of your hearts ability to relax.",
+      "headings": []
+    }
+  ],
+  "generatedAt": "2025-12-09T02:59:37.428Z",
+  "totalPages": 44
+}
