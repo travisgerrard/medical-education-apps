@@ -7,6 +7,7 @@ import AccessCodeScreen from './AccessCodeScreen';
 import DisclaimerPage from './DisclaimerPage';
 import { AuthContext } from '@medical-edu/shared-contexts';
 import { TextContext } from '@medical-edu/shared-contexts';
+import { useSectionContext } from '@medical-edu/shared-contexts';
 
 const BodyContainer = styled.div`
   display: flex;
@@ -65,6 +66,50 @@ const NavBarButton = styled.p`
   }
   &:active {
     opacity: ${(props) => (props.grayOutButton ? 0.2 : 0.3)};
+  }
+`;
+
+const SectionIndicator = styled.div`
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+  font-family: Helvetica Neue, Arial, sans-serif;
+  font-weight: 400;
+  text-align: center;
+  padding: 0 8px;
+  min-width: 0;
+  
+  @media (max-width: 480px) {
+    font-size: 12px;
+  }
+`;
+
+const SectionTitle = styled.span`
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 150px;
+  
+  @media (min-width: 481px) {
+    max-width: 250px;
+  }
+`;
+
+const ProgressBadge = styled.span`
+  margin-left: 8px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 12px;
+  white-space: nowrap;
+  
+  @media (max-width: 480px) {
+    margin-left: 6px;
+    padding: 2px 6px;
+    font-size: 11px;
   }
 `;
 
@@ -129,6 +174,7 @@ export default function MainReadingView({ children }) {
     changeTextSize,
     setTextSizeOnLoad,
   } = useContext(TextContext);
+  const { currentSection, currentIndex, totalSubsections } = useSectionContext();
 
   useEffect(() => {
     tryLocalSignin();
@@ -262,6 +308,16 @@ export default function MainReadingView({ children }) {
               -
             </NavBarButton>
           </NavBarText>
+          {currentSection && (
+            <SectionIndicator>
+              <SectionTitle title={currentSection.title}>
+                {currentSection.title}
+              </SectionTitle>
+              <ProgressBadge>
+                {currentIndex}/{totalSubsections}
+              </ProgressBadge>
+            </SectionIndicator>
+          )}
           <Link href="/">
             <NavBarButton style={{ cursor: 'pointer' }}>Close</NavBarButton>
           </Link>

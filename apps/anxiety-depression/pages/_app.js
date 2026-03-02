@@ -13,6 +13,7 @@ import {
   TextProvider,
   MenuScrollProvider,
   DarkProvider,
+  SectionContextProvider,
 } from '@medical-edu/shared-contexts';
 
 import { DATA } from '../SectionOutline';
@@ -31,26 +32,28 @@ const AppContent = ({ route, Component, pageProps }) => {
         searchIndex={searchIndex}
         placeholder={config?.placeholder}
       />
-      <ThemeProvider theme={theme}>
-        <AuthProvider>
-          <ReadingProvider initialState={{ readingArray: DATA, errorMessage: '' }}>
-            <NextToReadProvider>
-              <TextProvider>
-                <MenuScrollProvider>
-                  {route === '/' ? (
-                    <Component {...pageProps} />
-                  ) : (
-                    <MainReadingView>
+      <SectionContextProvider data={DATA}>
+        <ThemeProvider theme={theme}>
+          <AuthProvider>
+            <ReadingProvider initialState={{ readingArray: DATA, errorMessage: '' }}>
+              <NextToReadProvider>
+                <TextProvider>
+                  <MenuScrollProvider>
+                    {route === '/' ? (
                       <Component {...pageProps} />
-                      <NextSectionButton route={route} lastSectionId="9" />
-                    </MainReadingView>
-                  )}
-                </MenuScrollProvider>
-              </TextProvider>
-            </NextToReadProvider>
-          </ReadingProvider>
-        </AuthProvider>
-      </ThemeProvider>
+                    ) : (
+                      <MainReadingView>
+                        <Component {...pageProps} />
+                        <NextSectionButton route={route} lastSectionId="9" />
+                      </MainReadingView>
+                    )}
+                  </MenuScrollProvider>
+                </TextProvider>
+              </NextToReadProvider>
+            </ReadingProvider>
+          </AuthProvider>
+        </ThemeProvider>
+      </SectionContextProvider>
     </>
   );
 };

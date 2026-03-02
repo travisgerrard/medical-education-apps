@@ -7,3 +7,4 @@ export { Context as DarkContext, Provider as DarkProvider } from './DarkContext'
 export { Context as MenuScrollContext, Provider as MenuScrollProvider } from './MenuScrollContext';
 export { default as createDataContext } from './createDataContext';
 export { default as api } from './api';
+export { SectionContextProvider, useSectionContext } from './SectionContextProvider';
